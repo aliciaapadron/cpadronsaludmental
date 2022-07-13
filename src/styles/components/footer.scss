@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  &__title {
+    margin: 0 5px;
+    color: $darkcolor;
+  }
+  &__link {
+    color: $darkcolor;
+    text-decoration: none;
+    &:hover {
+      color: $link;
+      background-color: $ligthcolor;
+    }
+  }
+}
