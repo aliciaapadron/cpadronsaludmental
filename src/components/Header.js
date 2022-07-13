@@ -1,4 +1,4 @@
-import minilogo from '../images/logokiti.png';
+import minilogo from '../images/minilogo.png';
 export function Header(props) {
   return (
     <>
