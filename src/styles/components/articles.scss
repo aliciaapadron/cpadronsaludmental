@@ -1,0 +1,40 @@
+.artsection {
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    margin-bottom: 30px;
+    color: $darkgreen;
+    background: $background;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    &--article {
+      text-align: center;
+      list-style: none;
+      color: $darkgreen;
+      font-weight: bolder;
+      text-decoration: none;
+      margin: 15px 0;
+      &:hover {
+        background-color: $ligthcolor;
+      }
+    }
+    &--span {
+      color: $darkcolor;
+    }
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}

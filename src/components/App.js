@@ -1,13 +1,12 @@
 import '../styles/App.scss';
 //rutas
 import { Routes, Route } from 'react-router-dom';
-import { matchPath, useLocation } from 'react-router-dom';
 
 //useState y useEffect
-import { useState, useEffect } from 'react';
 
 //componentes
-import { Home } from './pages/home';
+import { Home } from './pages/Home';
+import { Articles } from './pages/Articles';
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/articles" element={<Articles />} />
         </Routes>
       </div>
     </>

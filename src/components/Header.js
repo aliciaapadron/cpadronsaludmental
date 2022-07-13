@@ -6,12 +6,14 @@ export function Header(props) {
     <>
       <header className="header">
         <section className="container">
-          <img
-            className="container__minilogo"
-            src={minilogo}
-            alt="Logo cpadronsaludmental"
-            title="Logo cpadronsaludmental"
-          />
+          <Link to="/">
+            <img
+              className="container__minilogo"
+              src={minilogo}
+              alt="Ir a la HOME"
+              title="Ir a la HOME"
+            />
+          </Link>
         </section>
         <h1 className="header__title">c.padronsaludmental</h1>
         <h2 className="header__subtitle">Acompañamiento neurodivergente</h2>
