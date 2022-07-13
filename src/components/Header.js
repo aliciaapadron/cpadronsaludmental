@@ -1,4 +1,6 @@
 import minilogo from '../images/minilogo.png';
+import { Link } from 'react-router-dom';
+
 export function Header(props) {
   return (
     <>
@@ -15,10 +17,18 @@ export function Header(props) {
         <h2 className="header__subtitle">Acompañamiento neurodivergente</h2>
         <nav className="nav">
           <ul className="nav__list">
-            <li className="nav__list--item">artículos</li>
-            <li className="nav__list--item">cursos</li>
-            <li className="nav__list--item">sobre mí</li>
-            <li className="nav__list--item">contacto</li>
+            <Link to="/articles" className="nav__link" title="Ir a ARTÍCULOS">
+              <li className="nav__list--item">artículos</li>
+            </Link>
+            <Link to="/courses" className="nav__link" title="Ir a CURSOS">
+              <li className="nav__list--item">cursos</li>
+            </Link>
+            <Link to="/aboutme" className="nav__link" title="Ir a SOBRE MÍ">
+              <li className="nav__list--item">sobre mí</li>
+            </Link>
+            <Link to="/contact" className="nav__link" title="Ir a CONTACTO">
+              <li className="nav__list--item">contacto</li>
+            </Link>
           </ul>
         </nav>
       </header>
