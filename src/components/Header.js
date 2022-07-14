@@ -15,7 +15,7 @@ export function Header(props) {
             />
           </Link>
         </section>
-        <h1 className="header__title">c.padronsaludmental</h1>
+        <h1 className="header__title">c.padron salud mental</h1>
         <h2 className="header__subtitle">Acompañamiento neurodivergente</h2>
         <nav className="nav">
           <ul className="nav__list">
