@@ -14,7 +14,7 @@ export function Courses() {
           y la forma de pago. <br />
           <a
             className="emailLink"
-            href="mailto: crispadron96@gmail.com"
+            href="mailto: cpadronsaludmental@gmail.com"
             title="Enviar un email"
           >
             Envíame un email.
@@ -33,7 +33,7 @@ export function Courses() {
             Primera acercamiento: Si estás interesada en que te acompañe,{' '}
             <a
               className="emailLink"
-              href="mailto: crispadron96@gmail.com"
+              href="mailto: cpadronsaludmental@gmail.com"
               title="Enviar un email"
             >
               escríbeme un correo
@@ -55,7 +55,7 @@ export function Courses() {
             adaptados a tu zona.{' '}
             <a
               className="emailLink"
-              href="mailto: crispadron96@gmail.com"
+              href="mailto: cpadronsaludmental@gmail.com"
               title="Enviar un email"
             >
               Envíame un email.
