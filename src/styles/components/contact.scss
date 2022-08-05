@@ -1,0 +1,47 @@
+.contactsection {
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: $darkgreen;
+    background: $background;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    list-style: none;
+    font-weight: bolder;
+    &--item {
+      text-align: center;
+      color: $darkgreen;
+      font-weight: bolder;
+      text-decoration: none;
+      margin: 15px 0;
+      &:hover {
+        background-color: $ligthcolor;
+      }
+    }
+    &--span {
+      color: $darkcolor;
+    }
+  }
+}
+.contactlink {
+  text-decoration: none;
+  color: $link;
+  font-weight: bolder;
+}
+
+.icon {
+  margin-right: 5px;
+}
