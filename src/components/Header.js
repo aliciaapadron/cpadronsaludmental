@@ -25,7 +25,7 @@ export function Header(props) {
             <Link to="/courses" className="nav__link" title="Ir a CURSOS">
               <li className="nav__list--item">cursos</li>
             </Link>
-            <Link to="/about-me" className="nav__link" title="Ir a SOBRE MÍ">
+            <Link to="/aboutme" className="nav__link" title="Ir a SOBRE MÍ">
               <li className="nav__list--item">sobre mí</li>
             </Link>
             <Link to="/contact" className="nav__link" title="Ir a CONTACTO">

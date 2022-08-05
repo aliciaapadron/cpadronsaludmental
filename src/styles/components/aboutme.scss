@@ -1,0 +1,18 @@
+.aboutsection {
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: $darkgreen;
+    background: $background;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  &__text {
+  }
+}
