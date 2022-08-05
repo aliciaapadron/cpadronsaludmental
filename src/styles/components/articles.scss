@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: $text;
 
   &__title {
     margin-bottom: 30px;
@@ -27,6 +28,7 @@
       margin: 15px 0;
       &:hover {
         background-color: $ligthcolor;
+        border-radius: 10px;
       }
     }
     &--span {

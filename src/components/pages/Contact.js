@@ -13,7 +13,7 @@ export function Contact() {
       <Header />
       <section className="contactsection">
         <h2 className="contactsection__title">
-          Aquí podrás encontrar mis redes sociales y mi email.
+          Encuentra comunidad Autista y (T)DAH en mis RRSS:
         </h2>
         <ul className="contactsection__list">
           <li className="contactsection__list--item">

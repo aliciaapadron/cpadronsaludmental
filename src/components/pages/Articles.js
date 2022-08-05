@@ -20,7 +20,7 @@ export function Articles() {
             La positividad tóxica: "Una manera bonita de decir 'invalida tus
             emociones y se autoexigente.'". <br />
             <span className="artsection__nav--span">
-              -Artículo de <span className="underline">rtve</span> sobre la
+              -Artículo de <span className="underline">RTVE</span> sobre la
               positividad tóxica-
             </span>
           </a>
@@ -59,7 +59,8 @@ export function Articles() {
             rel="noreferrer"
             title="Ir al artículo"
           >
-            La importancia sobre diagnosticar o comunicar el autismo. <br />
+            Con las redes sociales rompemos la brecha de acceso a la salud
+            mental. <br />
             <span className="artsection__nav--span">
               -Artículo de <span className="underline">Autiblog</span> sobre el
               diagnostico autista-

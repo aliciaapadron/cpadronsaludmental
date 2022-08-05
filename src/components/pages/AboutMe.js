@@ -1,6 +1,6 @@
 import { Footer } from '../Footer';
 import { Header } from '../Header';
-import eli from '../../images/eli.JPG';
+import eli from '../../images/eli.png';
 
 export function AboutMe() {
   return (
@@ -11,6 +11,12 @@ export function AboutMe() {
           Aquí podrás encontrar información sobre mí <br />
         </h2>
 
+        <img
+          className="aboutsection__img"
+          src={eli}
+          alt="Imagen de Cris y Eli"
+          title="Imagen de Cris y Eli"
+        />
         <p className="aboutsection__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
           hic eos, soluta dolorem, ea explicabo incidunt in quod ratione
@@ -24,12 +30,6 @@ export function AboutMe() {
           magnam laudantium dolores fugit incidunt. Perspiciatis recusandae
           deleniti maiores, sapiente doloremque ex.
         </p>
-        <img
-          className="aboutsection__img"
-          src={eli}
-          alt="Imagen de Cris y Eli"
-          title="Imagen de Cris y Eli"
-        />
       </section>
       <Footer />
     </>
