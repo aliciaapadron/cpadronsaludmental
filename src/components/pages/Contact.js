@@ -22,6 +22,8 @@ export function Contact() {
               className="contactlink"
               href="https://instagram.com/c.padronsaludmental?igshid=YmMyMTA2M2Y="
               title="Ir a instagram"
+              target="_blank"
+              rel="noreferrer"
             >
               Instagram
             </a>
@@ -32,6 +34,8 @@ export function Contact() {
               className="contactlink"
               href="https://www.linkedin.com/company/c-padr%C3%B3n-salud-mental/"
               title="Ir a linkedin"
+              target="_blank"
+              rel="noreferrer"
             >
               Linkedin
             </a>
@@ -42,6 +46,8 @@ export function Contact() {
               className="contactlink"
               href="https://www.tiktok.com/@c.padonsaludmental"
               title="Enviar un email"
+              target="_blank"
+              rel="noreferrer"
             >
               Tiktok
             </a>
@@ -52,6 +58,8 @@ export function Contact() {
               className="contactlink"
               href="https://www.youtube.com/channel/UCv-mEw1OLDSKjYysnaEd1nQ"
               title="Enviar un email"
+              target="_blank"
+              rel="noreferrer"
             >
               Youtube
             </a>
@@ -63,6 +71,8 @@ export function Contact() {
               className="contactlink"
               href="mailto: cpadronsaludmental@gmail.com"
               title="Enviar un email"
+              target="_blank"
+              rel="noreferrer"
             >
               Email
             </a>
