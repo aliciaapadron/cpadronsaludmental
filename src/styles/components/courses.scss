@@ -65,7 +65,11 @@
     }
   }
 }
-
+.price {
+  text-decoration: none;
+  color: $link;
+  font-weight: bolder;
+}
 .emailLink {
   text-decoration: none;
   color: $link;

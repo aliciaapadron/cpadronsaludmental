@@ -31,19 +31,20 @@ export function Courses() {
         </article>
         <ul className="coursection__list">
           <li className="coursection__list--item">
-            Quiero dejar de hacer masking.{' '}
+            Quiero dejar de hacer <span className="underline">masking.</span>{' '}
             <span className="price">Precio: 70€.</span>
           </li>
           <li className="coursection__list--item">
-            Cómo ser (T)DAH/(T)EA en el mundo laboral y no morir en el intento.{' '}
+            Cómo ser <span className="underline">(T)DAH/(T)EA </span>en el mundo
+            laboral y no morir en el intento.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
           <li className="coursection__list--item">
-            Relaciones sexo-afectivas y (T)DAH/(T)EA.{' '}
-            <span className="price">Precio: 100€.</span>
+            Relaciones <span className="underline">sexo-afectivas</span> y
+            (T)DAH/(T)EA. <span className="price">Precio: 100€.</span>
           </li>
           <li className="coursection__list--item">
-            Alimentación y (T)DAH/(T)EA.{' '}
+            <span className="underline">Alimentación </span> y (T)DAH/(T)EA.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
           <li className="coursection__list--item">
@@ -54,7 +55,8 @@ export function Courses() {
             >
               Escríbeme aquí
             </a>{' '}
-            para tu primer Acompañamiento <p>Precios:</p>
+            para tu primer <span className="underline">Acompañamiento</span>{' '}
+            <p>Precios:</p>
             <ul className="coursection__listprices">
               <li className="coursection__listprices--price">
                 1 sesión por 70€
