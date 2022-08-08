@@ -8,14 +8,14 @@ export function Courses() {
       <section className="coursection">
         <article className="coursection__title">
           <h2 className="coursection__title--subtitle">
-            Aquí tienes los servicios a los que puedes acceder.
+            Si te interesa algún servicio,
           </h2>
           <a
             className="emailLink"
             href="mailto: cpadronsaludmental@gmail.com"
             title="Enviar un email"
           >
-            Envíame un email
+            envíame un email
           </a>{' '}
           con los siguientes datos:
           <ul className="coursection__listdata">
@@ -35,15 +35,15 @@ export function Courses() {
             <span className="price">Precio: 70€.</span>
           </li>
           <li className="coursection__list--item">
-            Cómo ser (T)DAH/(T)EA en el mundo laboral y no morir en el intento.
+            Cómo ser (T)DAH/(T)EA en el mundo laboral y no morir en el intento.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
           <li className="coursection__list--item">
-            Relaciones sexo-afectivas y (T)DAH/(T)EA.
+            Relaciones sexo-afectivas y (T)DAH/(T)EA.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
           <li className="coursection__list--item">
-            Alimentación y (T)DAH/(T)EA.
+            Alimentación y (T)DAH/(T)EA.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
           <li className="coursection__list--item">

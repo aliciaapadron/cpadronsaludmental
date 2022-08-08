@@ -8,7 +8,7 @@ export function AboutMe() {
       <Header />
       <section className="aboutsection">
         <h2 className="aboutsection__title">
-          Aquí podrás encontrar información sobre mí <br />
+          Conóceme <br />
         </h2>
 
         <img
