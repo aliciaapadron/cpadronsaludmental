@@ -1,11 +1,5 @@
 import { Footer } from '../Footer';
 import { Header } from '../Header';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHashtag } from '@fortawesome/free-solid-svg-icons';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { faMusic } from '@fortawesome/free-solid-svg-icons';
-import { faMessage } from '@fortawesome/free-solid-svg-icons';
-import { faVideoCamera } from '@fortawesome/free-solid-svg-icons';
 
 export function Contact() {
   return (
@@ -17,7 +11,7 @@ export function Contact() {
         </h2>
         <ul className="contactsection__list">
           <li className="contactsection__list--item">
-            <FontAwesomeIcon className="icon" icon={faHashtag} />
+            <i class="fa-brands fa-instagram"></i>
             <a
               className="contactlink"
               href="https://instagram.com/c.padronsaludmental?igshid=YmMyMTA2M2Y="
@@ -29,7 +23,7 @@ export function Contact() {
             </a>
           </li>
           <li className="contactsection__list--item">
-            <FontAwesomeIcon className="icon" icon={faBriefcase} />
+            <i className="fa-brands fa-linkedin"></i>
             <a
               className="contactlink"
               href="https://www.linkedin.com/company/c-padr%C3%B3n-salud-mental/"
@@ -41,7 +35,7 @@ export function Contact() {
             </a>
           </li>
           <li className="contactsection__list--item">
-            <FontAwesomeIcon className="icon" icon={faMusic} />
+            <i className="fa-brands fa-tiktok"></i>
             <a
               className="contactlink"
               href="https://www.tiktok.com/@c.padonsaludmental"
@@ -53,7 +47,7 @@ export function Contact() {
             </a>
           </li>
           <li className="contactsection__list--item">
-            <FontAwesomeIcon className="icon" icon={faVideoCamera} />
+            <i class="fa-brands fa-youtube"></i>
             <a
               className="contactlink"
               href="https://www.youtube.com/channel/UCv-mEw1OLDSKjYysnaEd1nQ"
@@ -66,7 +60,7 @@ export function Contact() {
           </li>
 
           <li className="contactsection__list--item">
-            <FontAwesomeIcon className="icon" icon={faMessage} />
+            <i className="fa-brands fa-solid fa-paper-plane"></i>
             <a
               className="contactlink"
               href="mailto: cpadronsaludmental@gmail.com"
