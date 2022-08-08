@@ -11,7 +11,7 @@ export function Contact() {
         </h2>
         <ul className="contactsection__list">
           <li className="contactsection__list--item">
-            <i class="fa-brands fa-instagram"></i>
+            <i class="icon fa-brands fa-instagram"></i>
             <a
               className="contactlink"
               href="https://instagram.com/c.padronsaludmental?igshid=YmMyMTA2M2Y="
@@ -23,7 +23,7 @@ export function Contact() {
             </a>
           </li>
           <li className="contactsection__list--item">
-            <i className="fa-brands fa-linkedin"></i>
+            <i className="icon fa-brands fa-linkedin"></i>
             <a
               className="contactlink"
               href="https://www.linkedin.com/company/c-padr%C3%B3n-salud-mental/"
@@ -35,7 +35,7 @@ export function Contact() {
             </a>
           </li>
           <li className="contactsection__list--item">
-            <i className="fa-brands fa-tiktok"></i>
+            <i className="icon fa-brands fa-tiktok"></i>
             <a
               className="contactlink"
               href="https://www.tiktok.com/@c.padonsaludmental"
@@ -47,7 +47,7 @@ export function Contact() {
             </a>
           </li>
           <li className="contactsection__list--item">
-            <i class="fa-brands fa-youtube"></i>
+            <i class="icon fa-brands fa-youtube"></i>
             <a
               className="contactlink"
               href="https://www.youtube.com/channel/UCv-mEw1OLDSKjYysnaEd1nQ"
@@ -60,7 +60,7 @@ export function Contact() {
           </li>
 
           <li className="contactsection__list--item">
-            <i className="fa-brands fa-solid fa-paper-plane"></i>
+            <i className="icon fa-solid fa-paper-plane"></i>
             <a
               className="contactlink"
               href="mailto: cpadronsaludmental@gmail.com"
