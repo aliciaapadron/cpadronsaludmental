@@ -7,7 +7,9 @@ export function Courses() {
       <Header />
       <section className="coursection">
         <article className="coursection__title">
-          Aquí tienes los servicios a los que puedes acceder. <br />{' '}
+          <h2 className="coursection__title--subtitle">
+            Aquí tienes los servicios a los que puedes acceder.
+          </h2>
           <a
             className="emailLink"
             href="mailto: cpadronsaludmental@gmail.com"
@@ -16,14 +18,14 @@ export function Courses() {
             Envíame un email
           </a>{' '}
           con los siguientes datos:
-          <ul>
-            <li>Servicio que deseas</li>
-            <li>Nombre</li>
-            <li>Apellidos</li>
-            <li>Teléfono</li>
+          <ul className="coursection__listdata">
+            <li className="coursection__listdata--item">Servicio que deseas</li>
+            <li className="coursection__listdata--item">Nombre</li>
+            <li className="coursection__listdata--item">Apellidos</li>
+            <li className="coursection__listdata--item">Teléfono</li>
           </ul>
-          <p>
-            Y yo te responderé con el método y pago y las especificaciones para
+          <p className="coursection__text">
+            Y yo te responderé con el método de pago y las especificaciones para
             acceder
           </p>
         </article>
@@ -53,11 +55,19 @@ export function Courses() {
               Escríbeme aquí
             </a>{' '}
             para tu primer Acompañamiento <p>Precios:</p>
-            <ul>
-              <li className="price">Valor de una sesión: 70€</li>
-              <li className="price">4 por 260€</li>
-              <li className="price">8 por 525€</li>
-              <li className="price">15 por 980€</li>
+            <ul className="coursection__listprices">
+              <li className="coursection__listprices--price">
+                1 sesión por 70€
+              </li>
+              <li className="coursection__listprices--price">
+                4 sesiones por 260€
+              </li>
+              <li className="coursection__listprices--price">
+                8 sesiones por 525€
+              </li>
+              <li className="coursection__listprices--price">
+                15 sesiones por 980€
+              </li>
             </ul>
           </li>
         </ul>

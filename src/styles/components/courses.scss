@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 
   &__title {
     text-align: center;
@@ -13,6 +14,24 @@
     padding: 5px;
     border-radius: 10px;
     font-family: $text;
+  }
+  &__listdata {
+    margin: 10px 0;
+    &--item {
+      list-style: none;
+    }
+    &--item::before {
+      content: '\2022';
+      position: relative;
+      left: -10px;
+      font-size: 135%;
+      color: $darkcolor;
+      display: inline-block;
+      margin-left: -10px;
+    }
+  }
+  &__text {
+    margin: 10px 15px;
   }
   &__list {
     display: flex;
@@ -29,29 +48,27 @@
       font-weight: bolder;
       text-decoration: none;
       margin: 15px 0;
-      &:hover {
-        background-color: $ligthcolor;
-        border-radius: 10px;
-      }
     }
     &--span {
       color: $darkcolor;
     }
   }
-}
-
-.underline {
-  text-decoration: underline;
+  &__listprices {
+    list-style: none;
+    &--price {
+      text-decoration: none;
+      color: $link;
+      font-weight: bolder;
+    }
+  }
 }
 
 .emailLink {
   text-decoration: none;
   color: $link;
   font-weight: bolder;
-}
-
-.price {
-  text-decoration: none;
-  color: $link;
-  font-weight: bolder;
+  &:hover {
+    background-color: $ligthcolor;
+    border-radius: 10px;
+  }
 }
