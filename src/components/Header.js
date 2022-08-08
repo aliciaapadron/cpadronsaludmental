@@ -17,6 +17,7 @@ export function Header(props) {
         </section>
         <h1 className="header__title">c.padron salud mental</h1>
         <h2 className="header__subtitle">Acompañamiento neurodivergente</h2>
+        <i className="menu fa-solid fa-bars"></i>
         <nav className="nav">
           <ul className="nav__list">
             <Link to="/articles" className="nav__link" title="Ir a ARTÍCULOS">
