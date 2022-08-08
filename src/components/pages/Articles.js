@@ -54,6 +54,19 @@ export function Articles() {
           </a>
           <a
             className="artsection__nav--article"
+            href="https://www.instagram.com/p/Cgz9mByOKJ3/?igshid=MDJmNzVkMjY="
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Autismo en primera persona. <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">Instagram</span> sobre el
+              autismo-
+            </span>
+          </a>
+          <a
+            className="artsection__nav--article"
             href="https://www.instagram.com/p/CdkZVX-j30O/?igshid=MDJmNzVkMjY%3D"
             target="_blank"
             rel="noreferrer"
@@ -66,6 +79,7 @@ export function Articles() {
               diagnostico autista-
             </span>
           </a>
+
           <a
             className="artsection__nav--article"
             href="https://autiblog.bio.link/"
@@ -75,6 +89,63 @@ export function Articles() {
           >
             Link a <span className="underline">Autiblog</span> para leer el
             anterior artículo completo.
+          </a>
+
+          <a
+            className="artsection__nav--article"
+            href="https://www.instagram.com/p/COInMatCA6c/?igshid=MDJmNzVkMjY="
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Afrontar un (T)CA: “Si tienes el privilegio, el primer paso es ir a
+            terapia porque es mucho más fácil si no lo haces sola.”. <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              sobre el (T)CA-
+            </span>
+          </a>
+
+          <a
+            className="artsection__nav--article"
+            href="https://www.instagram.com/p/COnJf5zindH/?igshid=MDJmNzVkMjY="
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            (T)CA (Transtorno por atracón). <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              sobre el (T)CA-
+            </span>
+          </a>
+          <a
+            className="artsection__nav--article"
+            href="https://www.instagram.com/p/CPBcz4lCxh_/?igshid=MDJmNzVkMjY="
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            "Ninguna característica física excluye o significa que una persona
+            esté padeciendo un (T)CA" <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              sobre el (T)CA-
+            </span>
+          </a>
+
+          <a
+            className="artsection__nav--article"
+            href="https://www.instagram.com/p/CPYZPCcCcAX/?igshid=MDJmNzVkMjY="
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Tipos de alimentos que se consumen en un atracón. <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              sobre el (T)CA-
+            </span>
           </a>
         </nav>
       </section>
