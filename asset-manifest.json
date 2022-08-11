@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cpadronsaludmental/static/css/main.199ef1ea.css",
+    "main.js": "/cpadronsaludmental/static/js/main.8407bd9f.js",
+    "static/media/fotokiti-bn.png": "/cpadronsaludmental/static/media/fotokiti-bn.8df8b83c657183ade41b.png",
+    "static/media/eli.png": "/cpadronsaludmental/static/media/eli.794d6aba8e44884bcf32.png",
+    "static/media/logokiti.png": "/cpadronsaludmental/static/media/logokiti.0e6f82ef1e5b88310d96.png",
+    "static/media/minilogo.png": "/cpadronsaludmental/static/media/minilogo.0e6f82ef1e5b88310d96.png",
+    "index.html": "/cpadronsaludmental/index.html",
+    "main.199ef1ea.css.map": "/cpadronsaludmental/static/css/main.199ef1ea.css.map",
+    "main.8407bd9f.js.map": "/cpadronsaludmental/static/js/main.8407bd9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.199ef1ea.css",
+    "static/js/main.8407bd9f.js"
+  ]
+}
