@@ -1,14 +1,16 @@
 .coursection {
-  margin: 80px 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   font-size: 16px;
+  margin: 30px 60px 80px;
   @include desktop() {
     font-size: 20px;
+    margin: 80px 60px;
   }
+
   &__title {
     text-align: center;
     margin-bottom: 30px;

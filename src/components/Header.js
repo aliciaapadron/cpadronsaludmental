@@ -1,7 +1,12 @@
 import minilogo from '../images/minilogo.png';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-export function Header(props) {
+export function Header() {
+  const [menu, setMenu] = useState(false);
+  const toggleMenu = () => {
+    setMenu(!menu);
+  };
   return (
     <>
       <header className="header">
@@ -15,11 +20,32 @@ export function Header(props) {
             />
           </Link>
         </section>
-        <h1 className="header__title">c.padron salud mental</h1>
+        <div className="header__containermenu">
+          <button
+            className="header__containermenu--button"
+            onClick={toggleMenu}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="menu"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+          <h1 className="header__containermenu--title">
+            c.padron salud mental
+          </h1>
+        </div>
         <h2 className="header__subtitle">Acompañamiento neurodivergente</h2>
-        <i className="menu fa-solid fa-bars"></i>
         <nav className="nav">
-          <ul className="nav__list">
+          <ul className={`nav__list ${menu ? 'isActive' : ''}`}>
             <Link to="/articles" className="nav__link" title="Ir a ARTÍCULOS">
               <li className="nav__list--item">artículos</li>
             </Link>
