@@ -9,6 +9,7 @@ export function Footer() {
           href="https://twitter.com/aliciaapadronp"
           target="_blank"
           title="Ir al creador"
+          rel="noreferrer"
         >
           Alicia Padrón
         </a>

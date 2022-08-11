@@ -7,17 +7,17 @@ export function Courses() {
       <Header />
       <section className="coursection">
         <article className="coursection__title">
-          <h2 className="coursection__title--subtitle">
-            Si te interesa algún servicio,
-          </h2>
           <a
             className="emailLink"
             href="mailto: cpadronsaludmental@gmail.com"
             title="Enviar un email"
           >
-            envíame un email
+            Escríbeme un email
           </a>{' '}
-          con los siguientes datos:
+          <p className="coursection__title--subtitle">
+            con los servicios que te interesen
+          </p>
+          y los siguientes datos:
           <ul className="coursection__listdata">
             <li className="coursection__listdata--item">Servicio que deseas</li>
             <li className="coursection__listdata--item">Nombre</li>
