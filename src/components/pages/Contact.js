@@ -68,7 +68,7 @@ export function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              Email
+              Escríbeme un email
             </a>
           </li>
         </ul>

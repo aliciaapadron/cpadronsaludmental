@@ -81,7 +81,7 @@ export function AboutMe() {
           Acompaño desde un enfoque
           <span className="bold"> LGTB+ friendly</span>, enfoque{' '}
           <span className="bold">de género</span>,{' '}
-          <span className="bold">antigordófobo</span>, alida{' '}
+          <span className="bold">antigordófobo</span>, aliada{' '}
           <span className="bold">antirracista</span> y{' '}
           <span className="bold">respetuosa</span> con las{' '}
           <span className="bold">espiritualidades</span>.
@@ -109,7 +109,7 @@ export function AboutMe() {
           <span className="bold">
             odisea por los Servicios de Salud Mental{' '}
           </span>
-          públicos: sobremedicalización, mala praxis, atención deficiente{' '}
+          públicos:{' '}
           <span className="bold">
             sobremedicalización, mala praxis, atención deficiente
           </span>
@@ -136,7 +136,7 @@ export function AboutMe() {
           <span className="bold">compasiva</span> conmigo misma y{' '}
           <span className="bold">honrar mis necesidades</span>. Así como a{' '}
           <span className="bold">identificar</span> los{' '}
-          <span className="bold">precipitantes</span> de mis colapsos
+          <span className="bold">precipitantes</span> de mis colapsos{' '}
           <span className="bold">sensoriales</span>, a entender mi{' '}
           <span className="bold">maternidad</span> y mis{' '}
           <span className="bold">relaciones sociales</span>.
@@ -181,7 +181,20 @@ export function AboutMe() {
             Emprendimientos de jóvenes Autistas y (T)DAH
           </a>
           .
+          <br />
+          <br />
         </p>
+        <div className="writeme">
+          <a
+            className="contactlink writeme__link"
+            href="mailto: cpadronsaludmental@gmail.com"
+            title="Enviar un email"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Escríbeme y empieza tu proceso.
+          </a>
+        </div>
       </section>
 
       <Footer />
