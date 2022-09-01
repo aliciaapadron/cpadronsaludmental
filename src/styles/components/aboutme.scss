@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 60px 80px;
+  margin: 30px 60px 30px;
+  font-weight: bold;
   @include desktop() {
     font-size: 20px;
     margin: 80px 60px;
@@ -21,19 +22,55 @@
       font-size: 22px;
     }
   }
-  &__text {
-    margin: 0;
-    font-size: 16px;
-    @include desktop() {
-      font-size: 20px;
-      margin: 0 132px;
-    }
-  }
+
   &__img {
     width: 255px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     @include desktop() {
       width: 350px;
     }
   }
+}
+
+.aboutmesection {
+  &__text {
+    color: $darkgreen;
+    font-size: 16px;
+    margin: 0 60px;
+    @include desktop() {
+      font-size: 20px;
+    }
+  }
+}
+.aboutmelist {
+  color: $darkgreen;
+  margin: 0;
+  font-size: 16px;
+  margin: 0 60px;
+  @include desktop() {
+    font-size: 20px;
+    margin: 0 132px;
+  }
+  &__list {
+    margin: 10px 0;
+    &--item {
+      list-style: none;
+    }
+    &--item::before {
+      content: '\2022';
+      position: relative;
+      left: -10px;
+      font-size: 135%;
+      color: $darkcolor;
+      display: inline-block;
+      margin-left: -10px;
+    }
+  }
+}
+
+.bold {
+  font-weight: bolder;
+}
+.italic {
+  font-style: italic;
 }
