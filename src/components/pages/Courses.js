@@ -30,20 +30,20 @@ export function Courses() {
           </p>
         </article>
         <ul className="coursection__list">
-          <li className="coursection__list--item">
+          <li className="coursection__list--item display">
             Quiero dejar de hacer <span className="underline">masking.</span>{' '}
             <span className="price">Precio: 70€.</span>
           </li>
-          <li className="coursection__list--item">
+          <li className="coursection__list--item display">
             Cómo ser <span className="underline">(T)DAH/(T)EA </span>en el mundo
             laboral y no morir en el intento.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
-          <li className="coursection__list--item">
+          <li className="coursection__list--item display">
             Relaciones <span className="underline">sexo-afectivas</span> y
             (T)DAH/(T)EA. <span className="price">Precio: 100€.</span>
           </li>
-          <li className="coursection__list--item">
+          <li className="coursection__list--item display">
             <span className="underline">Alimentación </span> y (T)DAH/(T)EA.{' '}
             <span className="price">Precio: 100€.</span>
           </li>

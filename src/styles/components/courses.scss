@@ -34,6 +34,7 @@
   }
   &__listdata {
     margin: 10px 0;
+
     &--item {
       list-style: none;
     }
@@ -92,4 +93,8 @@
     background-color: $ligthcolor;
     border-radius: 10px;
   }
+}
+
+.display {
+  display: none;
 }
