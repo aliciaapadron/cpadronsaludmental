@@ -12,21 +12,22 @@ export function Courses() {
             href="mailto: cpadronsaludmental@gmail.com"
             title="Enviar un email"
           >
-            Escríbeme un email
+            Escríbeme aquí
           </a>{' '}
           <p className="coursection__title--subtitle">
-            con los servicios que te interesen
+            para tu primer Acompañamiento y cuéntame:
           </p>
-          y los siguientes datos:
           <ul className="coursection__listdata">
-            <li className="coursection__listdata--item">Servicio que deseas</li>
-            <li className="coursection__listdata--item">Nombre</li>
-            <li className="coursection__listdata--item">Apellidos</li>
-            <li className="coursection__listdata--item">Teléfono</li>
+            <li className="coursection__listdata--item">Qué bono deseas</li>
+            <li className="coursection__listdata--item">
+              Diferencia horaria respecto a España
+            </li>
+            <li className="coursection__listdata--item">
+              Disponibilidad horaria para citarnos
+            </li>
           </ul>
           <p className="coursection__text">
-            Y yo te responderé con el método de pago y las especificaciones para
-            acceder
+            Y yo te responderé con las citas disponibles y los datos de pago
           </p>
         </article>
         <ul className="coursection__list">
@@ -47,15 +48,8 @@ export function Courses() {
             <span className="underline">Alimentación </span> y (T)DAH/(T)EA.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
-          <li className="coursection__list--item">
-            <a
-              className="emailLink"
-              href="mailto: cpadronsaludmental@gmail.com"
-              title="Enviar un email"
-            >
-              Escríbeme aquí
-            </a>{' '}
-            para tu primer <span className="underline">Acompañamiento</span>{' '}
+          {/* <li className="coursection__list--item">
+           
             <p>Precios:</p>
             <ul className="coursection__listprices">
               <li className="coursection__listprices--price">
@@ -71,8 +65,60 @@ export function Courses() {
                 15 sesiones por 980€
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
+        <section className="aboutmelist">
+          <p className="aboutmelist__text underline">
+            Mis <span className="bold">Servicios Online</span> son los
+            siguientes:
+          </p>
+          <br />
+          <ul className="aboutmelist__list">
+            <li className="aboutmelist__list--item">
+              <span className="bold">Acompañamiento Emocional</span>
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="bold">Autoconocimiento</span> como Autista/(T)DAH
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="bold">Prevención de crisis</span> (Meltdown y
+              Shutdown)
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="bold">Derivación</span> para el{' '}
+              <span className="bold">diagnóstico</span>
+            </li>
+            <li className="aboutmelist__list--item">
+              Mediación y Ed. <span className="bold">Afectivo-Sexual</span>
+            </li>
+            <li className="aboutmelist__list--item">
+              Ed. <span className="bold">Familiar</span>
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="bold">Alimentación</span> y (T)EA/(T)DAH
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="bold">Maternidad</span>
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="bold">Consciencia plena </span> y{' '}
+              <span className="bold">compasión (mindfulness)</span>
+            </li>
+          </ul>
+          <br />
+          <p>
+            De estos servicios pueden beneficiarse tanto adultos/as/es como
+            menores.
+          </p>
+        </section>
+        <a
+          className="emailLink"
+          href="mailto: cpadronsaludmental@gmail.com"
+          title="Enviar un email"
+        >
+          Escríbeme aquí
+        </a>{' '}
+        para tu primer <span className="underline">Acompañamiento</span>{' '}
       </section>
       <Footer />
     </>

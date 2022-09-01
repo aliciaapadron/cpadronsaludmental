@@ -141,49 +141,49 @@ export function AboutMe() {
           <span className="bold">maternidad</span> y mis{' '}
           <span className="bold">relaciones sociales</span>.
         </p>
-      </section>
-      <br />
-      <section className="aboutmelist">
-        <p className="aboutmelist__text underline">Servicios</p>
         <br />
-        <ul className="aboutmelist__list">
-          <li className="aboutmelist__list--item">
-            <span className="bold">Acompañamiento Emocional</span>
-          </li>
-          <li className="aboutmelist__list--item">
-            <span className="bold">Autoconocimiento</span> como Autista/(T)DAH
-          </li>
-          <li className="aboutmelist__list--item">
-            <span className="bold">Prevención de crisis</span> (Meltdown y
-            Shutdown)
-          </li>
-          <li className="aboutmelist__list--item">
-            <span className="bold">Derivación</span> para el{' '}
-            <span className="bold">diagnóstico</span>
-          </li>
-          <li className="aboutmelist__list--item">
-            Mediación y Ed. <span className="bold">Afectivo-Sexual</span>
-          </li>
-          <li className="aboutmelist__list--item">
-            Ed. <span className="bold">Familiar</span>
-          </li>
-          <li className="aboutmelist__list--item">
-            <span className="bold">Alimentación</span> y (T)EA/(T)DAH
-          </li>
-          <li className="aboutmelist__list--item">
-            <span className="bold">Maternidad</span>
-          </li>
-          <li className="aboutmelist__list--item">
-            <span className="bold">Consciencia plena </span> y{' '}
-            <span className="bold">compasión (mindfulness)</span>
-          </li>
-        </ul>
-        <br />
-        <p>
-          De estos servicios pueden beneficiarse tanto adultos/as/es como
-          menores.
+        <p className="aboutmesection__text">
+          Desde mi enfoque{' '}
+          <span className="bold">De Neurodivergente a Neurodivergente </span>{' '}
+          procuro{' '}
+          <span className="bold">
+            promocionar el trabajo de nuestra comunidad
+          </span>
+          . Por ello el <span className="bold">Logo</span> de mi empresa lo
+          realizó{' '}
+          <a
+            className="contactlink"
+            href="https://www.instagram.com/felicityofnow1/="
+            title="Ir a Andrea"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Andrea
+          </a>{' '}
+          y la web{' '}
+          <a
+            className="contactlink"
+            href="https://aliciaapadron.github.io/portfolio/#/"
+            title="Ir a Alicia"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Alicia
+          </a>
+          . Además en mis historias destacadas puedes encontrar{' '}
+          <a
+            className="contactlink"
+            href="https://instagram.com/c.padronsaludmental?igshid=YmMyMTA2M2Y="
+            title="Ir mi instagram"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Emprendimientos de jóvenes Autistas y (T)DAH
+          </a>
+          .
         </p>
       </section>
+
       <Footer />
     </>
   );

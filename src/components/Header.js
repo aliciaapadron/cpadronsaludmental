@@ -49,8 +49,8 @@ export function Header() {
             <Link to="/articles" className="nav__link" title="Ir a ARTÍCULOS">
               <li className="nav__list--item">artículos</li>
             </Link>
-            <Link to="/courses" className="nav__link" title="Ir a CURSOS">
-              <li className="nav__list--item">cursos</li>
+            <Link to="/courses" className="nav__link" title="Ir a TARIFAS">
+              <li className="nav__list--item">tarifas</li>
             </Link>
             <Link to="/aboutme" className="nav__link" title="Ir a SOBRE MÍ">
               <li className="nav__list--item">sobre mí</li>

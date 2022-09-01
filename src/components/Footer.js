@@ -6,7 +6,7 @@ export function Footer() {
 
         <a
           className="footer__link"
-          href="https://twitter.com/aliciaapadronp"
+          href="https://aliciaapadron.github.io/portfolio/#/"
           target="_blank"
           title="Ir al creador"
           rel="noreferrer"

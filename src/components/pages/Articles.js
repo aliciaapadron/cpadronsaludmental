@@ -12,6 +12,58 @@ export function Articles() {
         <nav className="artsection__nav">
           <a
             className="artsection__nav--article"
+            href="https://www.instagram.com/tv/ChAm4YgprvH/?igshid=YmMyMTA2M2Y%3D"
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Mi Autismo y yo. <br />
+            <span className="artsection__nav--span">
+              -Directo de <span className="underline">Instagram</span> sobre el
+              autismo-
+            </span>
+          </a>
+
+          <a
+            className="artsection__nav--article"
+            href="https://www.instagram.com/p/Cgz9mByOKJ3/?igshid=MDJmNzVkMjY="
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Autismo en primera persona. <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">Instagram</span> sobre el
+              autismo-
+            </span>
+          </a>
+          <a
+            className="artsection__nav--article"
+            href="https://www.instagram.com/p/CdkZVX-j30O/?igshid=MDJmNzVkMjY%3D"
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Con las redes sociales rompemos la brecha de acceso a la salud
+            mental. <br />
+            <span className="artsection__nav--span">
+              -Artículo de <span className="underline">Autiblog</span> sobre el
+              diagnostico autista-
+            </span>
+          </a>
+
+          <a
+            className="artsection__nav--article"
+            href="https://autiblog.bio.link/"
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Link a <span className="underline">Autiblog</span> para leer el
+            anterior artículo completo.
+          </a>
+          <a
+            className="artsection__nav--article"
             href="https://www.rtve.es/noticias/20210831/positividad-toxica/2165823.shtml"
             target="_blank"
             rel="noreferrer"
@@ -52,44 +104,6 @@ export function Articles() {
               sobre la positividad tóxica-
             </span>
           </a>
-          <a
-            className="artsection__nav--article"
-            href="https://www.instagram.com/p/Cgz9mByOKJ3/?igshid=MDJmNzVkMjY="
-            target="_blank"
-            rel="noreferrer"
-            title="Ir al artículo"
-          >
-            Autismo en primera persona. <br />
-            <span className="artsection__nav--span">
-              -Post de <span className="underline">Instagram</span> sobre el
-              autismo-
-            </span>
-          </a>
-          <a
-            className="artsection__nav--article"
-            href="https://www.instagram.com/p/CdkZVX-j30O/?igshid=MDJmNzVkMjY%3D"
-            target="_blank"
-            rel="noreferrer"
-            title="Ir al artículo"
-          >
-            Con las redes sociales rompemos la brecha de acceso a la salud
-            mental. <br />
-            <span className="artsection__nav--span">
-              -Artículo de <span className="underline">Autiblog</span> sobre el
-              diagnostico autista-
-            </span>
-          </a>
-
-          <a
-            className="artsection__nav--article"
-            href="https://autiblog.bio.link/"
-            target="_blank"
-            rel="noreferrer"
-            title="Ir al artículo"
-          >
-            Link a <span className="underline">Autiblog</span> para leer el
-            anterior artículo completo.
-          </a>
 
           <a
             className="artsection__nav--article"
@@ -101,7 +115,7 @@ export function Articles() {
             Afrontar un (T)CA: “Si tienes el privilegio, el primer paso es ir a
             terapia porque es mucho más fácil si no lo haces sola.”. <br />
             <span className="artsection__nav--span">
-              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
               sobre el (T)CA-
             </span>
           </a>
@@ -115,7 +129,7 @@ export function Articles() {
           >
             (T)CA (Transtorno por atracón). <br />
             <span className="artsection__nav--span">
-              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
               sobre el (T)CA-
             </span>
           </a>
@@ -129,7 +143,7 @@ export function Articles() {
             "Ninguna característica física excluye o significa que una persona
             esté padeciendo un (T)CA" <br />
             <span className="artsection__nav--span">
-              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
               sobre el (T)CA-
             </span>
           </a>
@@ -143,7 +157,7 @@ export function Articles() {
           >
             Tipos de alimentos que se consumen en un atracón. <br />
             <span className="artsection__nav--span">
-              -Post de <span className="underline">@cuerposconhistoria</span>{' '}
+              -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
               sobre el (T)CA-
             </span>
           </a>
