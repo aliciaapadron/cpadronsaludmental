@@ -35,34 +35,26 @@
 .aboutmesection {
   &__text {
     color: $darkgreen;
+    font-family: $text;
     font-size: 16px;
-    margin: 0 338px;
+    margin: 0 48px;
     @include desktop() {
       font-size: 20px;
+      margin: 0 338px;
     }
   }
 }
-.bold {
-  font-weight: bolder;
-}
-.italic {
-  font-style: italic;
-}
+
 .writeme {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 30px;
   color: $darkgreen;
   background: $background;
   padding: 5px;
   border-radius: 10px;
   font-size: 16px;
   width: fit-content;
-  margin: 0 338px;
+  margin: 0 70px;
   @include desktop() {
     font-size: 22px;
-  }
-  &__link {
+    margin: 0 338px;
   }
 }

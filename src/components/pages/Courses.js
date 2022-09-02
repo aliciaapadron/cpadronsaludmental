@@ -48,77 +48,174 @@ export function Courses() {
             <span className="underline">Alimentación </span> y (T)DAH/(T)EA.{' '}
             <span className="price">Precio: 100€.</span>
           </li>
-          {/* <li className="coursection__list--item">
-           
-            <p>Precios:</p>
-            <ul className="coursection__listprices">
-              <li className="coursection__listprices--price">
-                1 sesión por 70€
-              </li>
-              <li className="coursection__listprices--price">
-                4 sesiones por 260€
-              </li>
-              <li className="coursection__listprices--price">
-                8 sesiones por 525€
-              </li>
-              <li className="coursection__listprices--price">
-                15 sesiones por 980€
-              </li>
-            </ul>
-          </li> */}
         </ul>
         <section className="aboutmelist">
-          <p className="aboutmelist__text underline">
-            Mis <span className="bold">Servicios Online</span> son los
-            siguientes:
+          <p className="aboutmelist__text">
+            Mis Servicios Online son los siguientes:
           </p>
           <br />
           <ul className="aboutmelist__list">
             <li className="aboutmelist__list--item">
-              <span className="bold">Acompañamiento Emocional</span>
+              <span className="underline">Acompañamiento Emocional</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="bold">Autoconocimiento</span> como Autista/(T)DAH
+              <span className="underline">Autoconocimiento</span> como
+              Autista/(T)DAH
             </li>
             <li className="aboutmelist__list--item">
-              <span className="bold">Prevención de crisis</span> (Meltdown y
-              Shutdown)
+              <span className="underline">Prevención de crisis</span> (Meltdown
+              y Shutdown)
             </li>
             <li className="aboutmelist__list--item">
-              <span className="bold">Derivación</span> para el{' '}
-              <span className="bold">diagnóstico</span>
+              <span className="underline">Derivación</span> para el{' '}
+              <span className="underline">diagnóstico</span>
             </li>
             <li className="aboutmelist__list--item">
-              Mediación y Ed. <span className="bold">Afectivo-Sexual</span>
+              Mediación y Ed. <span className="underline">Afectivo-Sexual</span>
             </li>
             <li className="aboutmelist__list--item">
-              Ed. <span className="bold">Familiar</span>
+              Ed. <span className="underline">Familiar</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="bold">Alimentación</span> y (T)EA/(T)DAH
+              <span className="underline">Alimentación</span> y (T)EA/(T)DAH
             </li>
             <li className="aboutmelist__list--item">
-              <span className="bold">Maternidad</span>
+              <span className="underline">Maternidad</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="bold">Consciencia plena </span> y{' '}
-              <span className="bold">compasión (mindfulness)</span>
+              <span className="underline">Consciencia plena </span> y{' '}
+              <span className="underline">compasión (mindfulness)</span>
+            </li>
+          </ul>
+          <br />
+        </section>
+        <section className="explanation">
+          <p className="explanation__title">
+            De estos servicios pueden beneficiarse tanto{' '}
+            <span className="bold">adultos/as/es</span> como{' '}
+            <span className="bold">menores</span>.
+          </p>
+          <br />
+          <p>
+            Durante nuestras sesiones te acompañaré a{' '}
+            <span className="bold">conocer tu identidad</span>
+            detrás del <span className="bold">masking</span>, a respetar tus
+            <span className="bold">necesidades sensoriales</span>, a{' '}
+            <span className="bold">practicar la compasión</span> contigo
+            misma/o/e y a relacionarte exitosamente con tus seres queridos.
+          </p>
+          <br />
+          <p className="italic underline">¿Cómo funciona?</p>
+          <br />
+          <p>
+            El siguiente paso es responder a este mail comentándome tu
+            <span className="bold">disponibilidad horaria</span> y{' '}
+            <span className="bold">diferencia horaria</span> respecto a España
+            para agendar una <span className="bold">cita</span>.
+          </p>
+          <br />
+          <p className="italic underline">¿Cuáles son los precios?</p>
+          <br />
+          <ul className="aboutmelist__list">
+            <li className="aboutmelist__list--item">
+              Cada sesión tiene una duración de
+              <span className="green"> 1h</span> y su valor es de{' '}
+              <span className="green">70 euros</span>.
+            </li>
+            <li className="aboutmelist__list--item">
+              Bono 1: de <span className="green">4 sesiones</span> por{' '}
+              <span className="green">260 euros</span> (
+              <span className="underline">Ahorro de 20 euros</span>).
+            </li>
+            <li className="aboutmelist__list--item">
+              Bono 2: de <span className="green">8 sesiones</span> por{' '}
+              <span className="green">525€</span> (
+              <span className="underline">ahorro de 35</span>).
+            </li>
+            <li className="aboutmelist__list--item">
+              Bono 3: de <span className="green">15 sesiones</span> por{' '}
+              <span className="green">980€</span> (
+              <span className="underline">ahorro de 70 euros</span>, lo que
+              equivale a una <span className="underline">sesión gratuita</span>
+              ).
             </li>
           </ul>
           <br />
           <p>
-            De estos servicios pueden beneficiarse tanto adultos/as/es como
-            menores.
+            <span className="bold">Métodos de pago</span>: BIZUM y TRANSFERENCIA
+            BANCARIA.
           </p>
+          <br />
+          <p>
+            Las sesiones de los bonos solo pueden espaciarse quincenalmente.
+          </p>
+          <br />
+          <p className="italic underline">¿Cómo solemos trabajar?</p>
+          <br />
+          <p>
+            Las citas se realizan mediante <span className="bold">Zoom</span>,
+            podrás acceder mediante un <span className="bold">link</span> que
+            llegará a tu correo.
+          </p>
+          <br />
+          <p>
+            La frecuencia recomendada para vernos es{' '}
+            <span className="bold">una vez a la semana</span>, sobre todo al
+            principio, ya que durante esas citas sentaremos las bases de nuestra
+            relación: crear el vínculo, conocerte…
+          </p>
+          <br />
+          <p>
+            Posteriormente y en función de tus intereses las citas pueden{' '}
+            <span className="bold">espaciarse</span>.
+          </p>
+          <br />
+          <p>
+            <span className="bold">Antes</span> de nuestra{' '}
+            <span className="bold">primera cita</span>, te enviaré un{' '}
+            <span className="bold">formulario</span> que leeré antes de
+            conocernos.
+          </p>
+          <br />
+          <p>
+            Agilizaremos el trabajo mediante{' '}
+            <span className="bold">Tareas</span> entre citas (no son
+            obligatorias).
+          </p>
+          <br />
+          <p>
+            Tendrás <span className="bold">acceso ilimitado</span> a comunicarte
+            conmigo por <span className="bold">mail</span>, para contarme
+            inquietudes, desahogarte…
+          </p>
+          <br />
+          <p className="italic underline">
+            ¿Cuál es el procedimiento si quiero un Diagnóstico?
+          </p>
+          <br />
+          <p>
+            Cuando te sientas preparada/o/e te{' '}
+            <span className="bold">derivaré</span> a Patricia, Neuropsicóloga
+            experta en (T)EA y (T)DAH. Sus diagnósticos son{' '}
+            <span className="bold">válidos</span> también en{' '}
+            <span className="bold">LATAM</span>. El{' '}
+            <span className="green">precio</span> de cada sesión para el
+            diagnóstico es de <span className="green">70 euros</span> y suelen
+            requerirse al menos <span className="green">5 sesiones</span>.
+          </p>
+          <br />
         </section>
-        <a
-          className="emailLink"
-          href="mailto: cpadronsaludmental@gmail.com"
-          title="Enviar un email"
-        >
-          Escríbeme aquí
-        </a>{' '}
-        para tu primer <span className="underline">Acompañamiento</span>{' '}
+        <div className="writeme">
+          <a
+            className="contactlink writeme__link"
+            href="mailto: cpadronsaludmental@gmail.com"
+            title="Enviar un email"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Escríbeme para tu primer Acompañamiento.
+          </a>
+        </div>
       </section>
       <Footer />
     </>
