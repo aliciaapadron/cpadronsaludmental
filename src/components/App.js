@@ -1,7 +1,7 @@
 import '../styles/App.scss';
 //rutas
+import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-
 //useState y useEffect
 
 //componentes
@@ -11,7 +11,13 @@ import { Courses } from './pages/Courses';
 import { AboutMe } from './pages/AboutMe';
 import { Contact } from './pages/Contact';
 
+// GTM
+import TagManager from 'react-gtm-module';
+
 function App() {
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-MS3F9JS' });
+  }, []);
   return (
     <>
       <div>

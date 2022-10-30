@@ -46,11 +46,11 @@ export function AboutMe() {
         <p className="aboutmesection__text">
           Estoy formada en{' '}
           <span className="bold">
-            Altas Capacidades, Doble Excepcionalidad, Trastornos de la Conducta
-            Alimentaria
+            Altas Capacidades (AACC), Doble Excepcionalidad (2e), Trastornos de
+            la Conducta Alimentaria (TCA)
           </span>{' '}
           y otras <span className="bold">co-ocurrencias</span> con el Autismo y
-          el (T)DAH.
+          el (T)DAH. Soy especialista en Neurodivergencias.
         </p>
         <br />
         <p className="aboutmesection__text">
@@ -71,7 +71,7 @@ export function AboutMe() {
             sistema educativo (técnicas de memorización, organización…)
           </span>{' '}
           , la vida social y familiar. A sus ma/padres para{' '}
-          <span className="bold">abordar su identidad</span>y las{' '}
+          <span className="bold">abordar su identidad </span>y las{' '}
           <span className="bold">dificultades derivadas</span>. También a
           <span className="bold"> ma/padres a descubrir su Autismo/(T)DAH</span>{' '}
           a partir del de sus hijos/as/es.
@@ -85,12 +85,16 @@ export function AboutMe() {
           <span className="bold">antirracista</span> y{' '}
           <span className="bold">respetuosa</span> con las{' '}
           <span className="bold">espiritualidades</span>.
+          <span className="bold">espiritualidades</span>.
         </p>
         <br />
         <p className="aboutmesection__text">
           En mi equipo cuento con el trabajo de Patricia,{' '}
           <span className="bold">Neuropsicóloga</span>, para realizar los
-          diagnósticos.
+          diagnósticos. Tengo una extensa red de profesionales especializadas en
+          diferentes áreas (psicólogas, nutricionistas...) para la derivación.
+          Formo parte de un círculo de profesionales para mantenernos
+          actualizados.
         </p>
         <br />
         <br />

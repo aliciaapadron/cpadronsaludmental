@@ -86,15 +86,17 @@ export function Courses() {
               <span className="underline">Consciencia plena </span> y{' '}
               <span className="underline">compasión (mindfulness)</span>
             </li>
+            <li className="aboutmelist__list--item">
+              <span className="underline">Altas Capacidades </span>(AACC)
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="underline">Personas Altamente Sensibles </span>
+              (PAS)
+            </li>
           </ul>
           <br />
         </section>
         <section className="explanation">
-          <p className="explanation__title">
-            De estos servicios pueden beneficiarse tanto{' '}
-            <span className="bold">adultos/as/es</span> como{' '}
-            <span className="bold">menores</span>.
-          </p>
           <br />
           <p>
             Durante nuestras sesiones te acompañaré a{' '}
@@ -142,8 +144,8 @@ export function Courses() {
           </ul>
           <br />
           <p>
-            <span className="bold">Métodos de pago</span>: BIZUM y TRANSFERENCIA
-            BANCARIA.
+            <span className="bold">Métodos de pago</span>: BIZUM y PayPal para
+            España, Stripe para el resto de países.
           </p>
           <br />
           <p>
@@ -153,7 +155,7 @@ export function Courses() {
           <p className="italic underline">¿Cómo solemos trabajar?</p>
           <br />
           <p>
-            Las citas se realizan mediante <span className="bold">Zoom</span>,
+            Las citas se realizan mediante <span className="bold">Meet</span>,
             podrás acceder mediante un <span className="bold">link</span> que
             llegará a tu correo.
           </p>

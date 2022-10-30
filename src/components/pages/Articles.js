@@ -12,6 +12,20 @@ export function Articles() {
         <nav className="artsection__nav">
           <a
             className="artsection__nav--article"
+            href="https://www.instagram.com/p/Cjjz4MLD_2t/?igshid=MDJmNzVkMjY%3D"
+            target="_blank"
+            rel="noreferrer"
+            title="Ir al artículo"
+          >
+            Clase sobre Neurodivergencia y Nutrición. <br />
+            <span className="artsection__nav--span">
+              -Post de <span className="underline">Instagram</span>{' '}
+              Neurodivergencia y Nutrición-
+            </span>
+          </a>
+
+          <a
+            className="artsection__nav--article"
             href="https://www.instagram.com/tv/ChAm4YgprvH/?igshid=YmMyMTA2M2Y%3D"
             target="_blank"
             rel="noreferrer"
@@ -37,6 +51,7 @@ export function Articles() {
               autismo-
             </span>
           </a>
+
           <a
             className="artsection__nav--article"
             href="https://www.instagram.com/p/CdkZVX-j30O/?igshid=MDJmNzVkMjY%3D"
@@ -62,6 +77,7 @@ export function Articles() {
             Link a <span className="underline">Autiblog</span> para leer el
             anterior artículo completo.
           </a>
+
           <a
             className="artsection__nav--article"
             href="https://www.rtve.es/noticias/20210831/positividad-toxica/2165823.shtml"
@@ -76,6 +92,7 @@ export function Articles() {
               positividad tóxica-
             </span>
           </a>
+
           <a
             className="artsection__nav--article"
             href="https://www.vice.com/es/article/4avj5d/que-es-la-positividad-toxica-y-como-nos-afecta"
@@ -91,6 +108,7 @@ export function Articles() {
               positividad tóxica-
             </span>
           </a>
+
           <a
             className="artsection__nav--article"
             href="http://70.36.107.45:3000/como-afecta-fingir-que-estamos-bien-el-independiente.html"
@@ -112,11 +130,11 @@ export function Articles() {
             rel="noreferrer"
             title="Ir al artículo"
           >
-            Afrontar un (T)CA: “Si tienes el privilegio, el primer paso es ir a
+            Afrontar un TCA: “Si tienes el privilegio, el primer paso es ir a
             terapia porque es mucho más fácil si no lo haces sola.”. <br />
             <span className="artsection__nav--span">
               -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
-              sobre el (T)CA-
+              sobre el TCA-
             </span>
           </a>
 
@@ -127,12 +145,13 @@ export function Articles() {
             rel="noreferrer"
             title="Ir al artículo"
           >
-            (T)CA (Transtorno por atracón). <br />
+            TCA (Transtorno por atracón). <br />
             <span className="artsection__nav--span">
               -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
-              sobre el (T)CA-
+              sobre el TCA-
             </span>
           </a>
+
           <a
             className="artsection__nav--article"
             href="https://www.instagram.com/p/CPBcz4lCxh_/?igshid=MDJmNzVkMjY="
@@ -141,10 +160,10 @@ export function Articles() {
             title="Ir al artículo"
           >
             "Ninguna característica física excluye o significa que una persona
-            esté padeciendo un (T)CA" <br />
+            esté padeciendo un TCA" <br />
             <span className="artsection__nav--span">
               -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
-              sobre el (T)CA-
+              sobre el TCA-
             </span>
           </a>
 
@@ -158,7 +177,7 @@ export function Articles() {
             Tipos de alimentos que se consumen en un atracón. <br />
             <span className="artsection__nav--span">
               -Vídeo de <span className="underline">@cuerposconhistoria</span>{' '}
-              sobre el (T)CA-
+              sobre el TCA-
             </span>
           </a>
         </nav>
