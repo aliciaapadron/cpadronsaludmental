@@ -108,14 +108,14 @@ export function Courses() {
           </ul>
           <br />
           <ul className="aboutmelist__list">
-            <h2 className="aboutmelist__list--title">
-              Ma/padres y parejas de personas Neurodivergentes
-            </h2>
+            <h2 className="aboutmelist__list--title">Profesionales</h2>
             <li className="aboutmelist__list--item">
-              <span className="underline">Asesoramiento</span>
+              <span className="underline">Consultas de caso puntuales</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="underline">Educación y Mediación familiar</span>
+              <span className="underline">
+                Grupo de Consultas de caso (grupo reducido)
+              </span>
             </li>
           </ul>
           <br />
