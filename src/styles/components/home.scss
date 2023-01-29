@@ -24,3 +24,15 @@
     }
   }
 }
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #2b4f60;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}

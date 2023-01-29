@@ -63,16 +63,14 @@
   }
 
   .aboutmelist {
-    font-family: $text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-weight: bolder;
-    color: $darkgreen;
+    color: #2b4f60;
     margin: 0;
-    margin: 0 60px;
     display: flex;
+
     @include desktop() {
       font-size: 20px;
       margin: 0 132px;
@@ -105,7 +103,6 @@
   flex-direction: column;
   color: $darkgreen;
   margin: 0;
-  margin: 0 60px;
   display: flex;
   font-weight: lighter;
   @include desktop() {
@@ -118,4 +115,14 @@
 }
 .green {
   color: $link;
+}
+
+.aboutmelist__list--title {
+  border: solid 1px $link;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 20px;
+  @include desktop() {
+    font-size: 30px;
+  }
 }

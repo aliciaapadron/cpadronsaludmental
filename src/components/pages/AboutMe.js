@@ -22,8 +22,10 @@ export function AboutMe() {
           Soy Cris, mujer Autista e Hiperactiva. Soy{' '}
           <span className="bold">Experta en Autismo</span> y{' '}
           <span className="bold">Experta en (T)DAH</span>. Además de{' '}
-          <span className="bold">Educadora/Mediadora Afectivo-sexual</span> y
-          Educadora Familiar.
+          <span className="bold">Educadora/Mediadora Afectivo-sexual</span>,{' '}
+          <span className="bold">Educadora Familiar</span> ,{' '}
+          <span className="bold">Especialista en Terapias Contextuales</span> y
+          de <span className="bold">Tercera Generación.</span>
         </p>
         <br />
         <p className="aboutmesection__text">

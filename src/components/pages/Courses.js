@@ -51,47 +51,71 @@ export function Courses() {
         </ul>
         <section className="aboutmelist">
           <p className="aboutmelist__text">
-            Mis Servicios Online son los siguientes:
+            Atiendo online y mis servicios son los siguientes:
           </p>
           <br />
           <ul className="aboutmelist__list">
+            <h2 className="aboutmelist__list--title">
+              Personas Neurodivergentes o que sospechen serlo:
+            </h2>
             <li className="aboutmelist__list--item">
-              <span className="underline">Acompañamiento Emocional</span>
+              Acompañamiento Emocional
+              <span className="underline">
+                desde el paradigma de las Neurodivergencias
+              </span>
             </li>
             <li className="aboutmelist__list--item">
               <span className="underline">Autoconocimiento</span> como
               Autista/(T)DAH
             </li>
             <li className="aboutmelist__list--item">
-              <span className="underline">Prevención de crisis</span> (Meltdown
-              y Shutdown)
+              <span className="underline">Preveción y gestión de Crisis</span>{' '}
+              (Meltdown y Shutdown)
             </li>
             <li className="aboutmelist__list--item">
-              <span className="underline">Derivación</span> para el{' '}
-              <span className="underline">diagnóstico</span>
+              <span className="underline">Socialización</span>
             </li>
             <li className="aboutmelist__list--item">
-              Mediación y Ed. <span className="underline">Afectivo-Sexual</span>
+              <span className="underline">Sexualidad</span>
             </li>
             <li className="aboutmelist__list--item">
-              Ed. <span className="underline">Familiar</span>
+              <span className="underline">Alimentación</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="underline">Alimentación</span> y (T)EA/(T)DAH
+              <span className="underline">Derivación para el</span> Diagnóstico
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="underline">"Funcionalidad"</span>
+            </li>
+            <li className="aboutmelist__list--item">
+              <span className="underline">Autocuidado</span>{' '}
             </li>
             <li className="aboutmelist__list--item">
               <span className="underline">Maternidad</span>
             </li>
+          </ul>
+          <br />
+          <ul className="aboutmelist__list">
+            <h2 className="aboutmelist__list--title">
+              Ma/padres y parejas de personas Neurodivergentes
+            </h2>
             <li className="aboutmelist__list--item">
-              <span className="underline">Consciencia plena </span> y{' '}
-              <span className="underline">compasión (mindfulness)</span>
+              <span className="underline">Asesoramiento</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="underline">Altas Capacidades </span>(AACC)
+              <span className="underline">Educación y Mediación familiar</span>
+            </li>
+          </ul>
+          <br />
+          <ul className="aboutmelist__list">
+            <h2 className="aboutmelist__list--title">
+              Ma/padres y parejas de personas Neurodivergentes
+            </h2>
+            <li className="aboutmelist__list--item">
+              <span className="underline">Asesoramiento</span>
             </li>
             <li className="aboutmelist__list--item">
-              <span className="underline">Personas Altamente Sensibles </span>
-              (PAS)
+              <span className="underline">Educación y Mediación familiar</span>
             </li>
           </ul>
           <br />
@@ -100,8 +124,8 @@ export function Courses() {
           <br />
           <p>
             Durante nuestras sesiones te acompañaré a{' '}
-            <span className="bold">conocer tu identidad</span>
-            detrás del <span className="bold">masking</span>, a respetar tus
+            <span className="bold">conocer tu identidad</span> detrás del{' '}
+            <span className="bold">masking</span>, a respetar tus{' '}
             <span className="bold">necesidades sensoriales</span>, a{' '}
             <span className="bold">practicar la compasión</span> contigo
             misma/o/e y a relacionarte exitosamente con tus seres queridos.
@@ -110,7 +134,7 @@ export function Courses() {
           <p className="italic underline">¿Cómo funciona?</p>
           <br />
           <p>
-            El siguiente paso es responder a este mail comentándome tu
+            El primer paso es responder a este mail comentándome tu
             <span className="bold">disponibilidad horaria</span> y{' '}
             <span className="bold">diferencia horaria</span> respecto a España
             para agendar una <span className="bold">cita</span>.
@@ -120,26 +144,23 @@ export function Courses() {
           <br />
           <ul className="aboutmelist__list">
             <li className="aboutmelist__list--item">
-              Cada sesión tiene una duración de
+              Cada sesión dura
               <span className="green"> 1h</span> y su valor es de{' '}
-              <span className="green">70 euros</span>.
+              <span className="green">75 euros</span>.
             </li>
             <li className="aboutmelist__list--item">
-              Bono 1: de <span className="green">4 sesiones</span> por{' '}
-              <span className="green">260 euros</span> (
-              <span className="underline">Ahorro de 20 euros</span>).
+              Bono de <span className="green">4 citas</span> por{' '}
+              <span className="green">290€</span> (
+              <span className="underline"> ahorro de 10€</span>). Las citas del
+              bono serán semanales o quincenales.
             </li>
             <li className="aboutmelist__list--item">
-              Bono 2: de <span className="green">8 sesiones</span> por{' '}
-              <span className="green">525€</span> (
-              <span className="underline">ahorro de 35</span>).
+              Tarifa reducida (a pactar si hay plazas disponibles).
             </li>
             <li className="aboutmelist__list--item">
-              Bono 3: de <span className="green">15 sesiones</span> por{' '}
-              <span className="green">980€</span> (
-              <span className="underline">ahorro de 70 euros</span>, lo que
-              equivale a una <span className="underline">sesión gratuita</span>
-              ).
+              Tarifa Solidaria 80€/cita (de los cuales 5€ se destinarán a cubrir
+              tarifas reducidas, haciendo de esto un proceso colectivo de
+              conciencia de clase y privilegios).
             </li>
           </ul>
           <br />
@@ -148,16 +169,17 @@ export function Courses() {
             España, Stripe para el resto de países.
           </p>
           <br />
-          <p>
-            Las sesiones de los bonos solo pueden espaciarse quincenalmente.
-          </p>
           <br />
           <p className="italic underline">¿Cómo solemos trabajar?</p>
           <br />
           <p>
-            Las citas se realizan mediante <span className="bold">Meet</span>,
-            podrás acceder mediante un <span className="bold">link</span> que
-            llegará a tu correo.
+            Nuestra cita se añadirá{' '}
+            <span className="bold">
+              automáticamente a tu calendario de google
+            </span>
+            , podrás acceder mediante un <span className="bold">link</span> que
+            llegará a tu correo, y se realizarán mediante{' '}
+            <span className="bold">Meet</span>.
           </p>
           <br />
           <p>
@@ -196,14 +218,60 @@ export function Courses() {
           </p>
           <br />
           <p>
-            Cuando te sientas preparada/o/e te{' '}
-            <span className="bold">derivaré</span> a Patricia, Neuropsicóloga
-            experta en (T)EA y (T)DAH. Sus diagnósticos son{' '}
-            <span className="bold">válidos</span> también en{' '}
-            <span className="bold">LATAM</span>. El{' '}
-            <span className="green">precio</span> de cada sesión para el
-            diagnóstico es de <span className="green">70 euros</span> y suelen
-            requerirse al menos <span className="green">5 sesiones</span>.
+            Cuando te sientas preparada/o/e te derivaré al{' '}
+            <span className="bold">equipo de Neuropsicología.</span> Te
+            realizaré un informe con mis observaciones durante nuestro trabajo
+            juntas/os/es que servirá a las{' '}
+            <span className="bold">Neuropsicólogas</span> como base para vuestro
+            proceso.
+          </p>{' '}
+          <br />
+          <p>
+            Las <span className="bold">sesiones de Evaluación</span> suelen
+            durar 1:30h y suelen requerirse 4 sesiones para realizar el
+            diagnóstico de una Condición/Neurotipo. Generalmente se realiza en
+            la misma semana.
+          </p>{' '}
+          <br />
+          <p>
+            Realizan evaluaciones de
+            <span className="bold">
+              {' '}
+              Altas Capacidades, Autismo, (T)DAH, Discalculia, Desorden del
+              procesamiento sensorial, Funciones Ejecutivas, TOC, Depresión...
+            </span>
+          </p>{' '}
+          <br />
+          <p>
+            En los casos en los que sea necesario evaluar{' '}
+            <span className="bold">
+              {' '}
+              más condiciones, co-ocurrencias o realizar diagnóstico diferencial
+            </span>
+            , se necesitarán más sesiones. El equipo de{' '}
+            <span className="bold">Neuropsicólogas ofrece un pack</span> para
+            estas situaciones que suele incluir: todas las sesiones necesarias,
+            evaluación sensorial, de las funciones ejecutivas, evaluación de
+            co-ocurrencias, inteligencia, evaluacion diferencial...
+          </p>
+          <br />
+          <p className="italic underline">
+            ¿Y si quiero el diagnóstico pero no puedo trabajar contigo?
+          </p>
+          <br />
+          <p>
+            {' '}
+            <a
+              className="contactlink writeme__link"
+              href="mailto: cpadronsaludmental@gmail.com"
+              title="Enviar un email"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Escrímebe un mail
+            </a>{' '}
+            pidiéndome los datos para la Evaluación diagnóstica, y te mandaré
+            toda la información.
           </p>
           <br />
         </section>
