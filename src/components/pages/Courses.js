@@ -134,7 +134,7 @@ export function Courses() {
           <p className="italic underline">¿Cómo funciona?</p>
           <br />
           <p>
-            El primer paso es responder a este mail comentándome tu
+            El primer paso es responder a este mail comentándome tu{' '}
             <span className="bold">disponibilidad horaria</span> y{' '}
             <span className="bold">diferencia horaria</span> respecto a España
             para agendar una <span className="bold">cita</span>.
