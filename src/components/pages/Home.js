@@ -9,7 +9,7 @@ export function Home() {
       <Header />
       <section className="piccontainer">
         <p className="description">
-          Soy Crisis, Terapeuta Experta en Autismo y (T)DAH, Especialista en
+          Soy Cris, Terapeuta Experta en Autismo y (T)DAH, Especialista en
           Neurodivergencias.
         </p>
         <img
