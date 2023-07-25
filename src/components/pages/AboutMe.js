@@ -19,7 +19,7 @@ export function AboutMe() {
       </section>
       <section className="aboutmesection">
         <p className="aboutmesection__text">
-          Soy Cris, mujer Autista e Hiperactiva. Soy{' '}
+          Soy Cris, mujer Autista, Hiperactiva y Altas Capacidades. Soy{' '}
           <span className="bold">Experta en Autismo</span> y{' '}
           <span className="bold">Experta en (T)DAH</span>. Además de{' '}
           <span className="bold">Educadora/Mediadora Afectivo-sexual</span>,{' '}
