@@ -91,12 +91,10 @@ export function AboutMe() {
         </p>
         <br />
         <p className="aboutmesection__text">
-          En mi equipo cuento con el trabajo de Patricia,{' '}
-          <span className="bold">Neuropsicóloga</span>, para realizar los
-          diagnósticos. Tengo una extensa red de profesionales especializadas en
-          diferentes áreas (psicólogas, nutricionistas...) para la derivación.
-          Formo parte de un círculo de profesionales para mantenernos
-          actualizados.
+          En mi equipo cuento con un equipo de{' '}
+          <span className="bold">Neuropsicólogas</span> para realizar los
+          diagnósticos, además de una extensa red de profesionales para la
+          derivación.
         </p>
         <br />
         <br />

@@ -227,13 +227,6 @@ export function Courses() {
           </p>{' '}
           <br />
           <p>
-            Las <span className="bold">sesiones de Evaluación</span> suelen
-            durar 1:30h y suelen requerirse 4 sesiones para realizar el
-            diagnóstico de una Condición/Neurotipo. Generalmente se realiza en
-            la misma semana.
-          </p>{' '}
-          <br />
-          <p>
             Realizan evaluaciones de
             <span className="bold">
               {' '}
@@ -241,19 +234,6 @@ export function Courses() {
               procesamiento sensorial, Funciones Ejecutivas, TOC, Depresión...
             </span>
           </p>{' '}
-          <br />
-          <p>
-            En los casos en los que sea necesario evaluar{' '}
-            <span className="bold">
-              {' '}
-              más condiciones, co-ocurrencias o realizar diagnóstico diferencial
-            </span>
-            , se necesitarán más sesiones. El equipo de{' '}
-            <span className="bold">Neuropsicólogas ofrece un pack</span> para
-            estas situaciones que suele incluir: todas las sesiones necesarias,
-            evaluación sensorial, de las funciones ejecutivas, evaluación de
-            co-ocurrencias, inteligencia, evaluacion diferencial...
-          </p>
           <br />
           <p className="italic underline">
             ¿Y si quiero el diagnóstico pero no puedo trabajar contigo?
