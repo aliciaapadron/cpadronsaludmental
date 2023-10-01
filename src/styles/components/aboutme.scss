@@ -15,7 +15,7 @@
     margin-bottom: 30px;
     color: $darkgreen;
     background: $background;
-    padding: 5px;
+    padding: 30px;
     border-radius: 10px;
     font-size: 16px;
     @include desktop() {
@@ -48,7 +48,7 @@
 .writeme {
   color: $darkgreen;
   background: $background;
-  padding: 5px;
+  padding: 30px;
   border-radius: 10px;
   font-size: 16px;
   width: fit-content;

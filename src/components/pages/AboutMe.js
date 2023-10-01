@@ -20,12 +20,14 @@ export function AboutMe() {
       <section className="aboutmesection">
         <p className="aboutmesection__text">
           Soy Cris, mujer Autista, Hiperactiva y Altas Capacidades. Soy{' '}
-          <span className="bold">Experta en Autismo</span> y{' '}
-          <span className="bold">Experta en (T)DAH</span>. Además de{' '}
+          <span className="bold">Experta en Autismo, (T)DAH y AACC</span> y{' '}
+          además de{' '}
           <span className="bold">Educadora/Mediadora Afectivo-sexual</span>,{' '}
           <span className="bold">Educadora Familiar</span> ,{' '}
           <span className="bold">Especialista en Terapias Contextuales</span> y
-          de <span className="bold">Tercera Generación.</span>
+          de <span className="bold">Tercera Generación, Experta en Duelo</span>{' '}
+          y estoy formada en <span className="bold">Apego y Trauma</span> desde
+          un enfoque integrador (TEP, ASI...)
         </p>
         <br />
         <p className="aboutmesection__text">
@@ -46,13 +48,14 @@ export function AboutMe() {
         </p>
         <br />
         <p className="aboutmesection__text">
-          Estoy formada en{' '}
+          Soy especialista en Neurodivergencias y estoy formada en{' '}
           <span className="bold">
-            Altas Capacidades (AACC), Doble Excepcionalidad (2e), Trastornos de
-            la Conducta Alimentaria (TCA)
+            Altas Capacidades (AACC), Doble Excepcionalidad (2e) y
+            Excepcionalidad múltiple, Trastornos de la Conducta Alimentaria
+            (TCA)
           </span>{' '}
           y otras <span className="bold">co-ocurrencias</span> con el Autismo y
-          el (T)DAH. Soy especialista en Neurodivergencias.
+          el (T)DAH.
         </p>
         <br />
         <p className="aboutmesection__text">
@@ -66,35 +69,22 @@ export function AboutMe() {
           .
         </p>
         <br />
-        <p className="aboutmesection__text">
-          Por otro lado, he acompañado a <span className="bold">menores</span> a
-          transitar el{' '}
-          <span className="bold">
-            sistema educativo (técnicas de memorización, organización…)
-          </span>{' '}
-          , la vida social y familiar. A sus ma/padres para{' '}
-          <span className="bold">abordar su identidad </span>y las{' '}
-          <span className="bold">dificultades derivadas</span>. También a
-          <span className="bold"> ma/padres a descubrir su Autismo/(T)DAH</span>{' '}
-          a partir del de sus hijos/as/es.
-        </p>
-        <br />
+
         <p className="aboutmesection__text">
           Acompaño desde un enfoque
+          <span className="bold"> Informado en Apego y Trauma</span>,
           <span className="bold"> LGTB+ friendly</span>, enfoque{' '}
           <span className="bold">de género</span>,{' '}
           <span className="bold">antigordófobo</span>, aliada{' '}
           <span className="bold">antirracista</span> y{' '}
           <span className="bold">respetuosa</span> con las{' '}
           <span className="bold">espiritualidades</span>.
-          <span className="bold">espiritualidades</span>.
         </p>
         <br />
         <p className="aboutmesection__text">
-          En mi equipo cuento con un equipo de{' '}
-          <span className="bold">Neuropsicólogas</span> para realizar los
-          diagnósticos, además de una extensa red de profesionales para la
-          derivación.
+          Cuento con un equipo de <span className="bold">Neuropsicólogas</span>{' '}
+          para realizar los diagnósticos, además de una extensa red de
+          profesionales para la derivación.
         </p>
         <br />
         <br />
@@ -133,9 +123,11 @@ export function AboutMe() {
         </p>
         <br />
         <p className="aboutmesection__text">
-          <span className="bold">Encontrarme como Mujer Autista</span> le dio{' '}
-          <span className="bold">sentido a mis vivencias</span> y me ayudó a
-          <span className="bold">comprenderme</span>. Me ha impulsado a{' '}
+          <span className="bold">
+            Encontrarme como Mujer Autista, (T)DAH y AACC
+          </span>{' '}
+          le dio <span className="bold">sentido a mis vivencias</span> y me
+          ayudó a<span className="bold">comprenderme</span>. Me ha impulsado a{' '}
           <span className="bold">dejar el masking</span>, ser{' '}
           <span className="bold">compasiva</span> conmigo misma y{' '}
           <span className="bold">honrar mis necesidades</span>. Así como a{' '}

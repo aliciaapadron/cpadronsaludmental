@@ -13,6 +13,9 @@ import { Contact } from './pages/Contact';
 
 // GTM
 import TagManager from 'react-gtm-module';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { LegalAdvise } from './pages/LegalAdvice';
+import { PrivacyCookies } from './pages/PrivacyCookies';
 
 function App() {
   useEffect(() => {
@@ -27,6 +30,9 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/legaladvice" element={<LegalAdvise />} />
+          <Route path="/privacycookies" element={<PrivacyCookies />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         </Routes>
       </div>
     </>

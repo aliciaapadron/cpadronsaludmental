@@ -16,7 +16,7 @@
     margin-bottom: 30px;
     color: $darkgreen;
     background: $background;
-    padding: 5px;
+    padding: 30px;
     border-radius: 10px;
     font-family: $text;
     font-size: 16px;
@@ -120,7 +120,7 @@
 .aboutmelist__list--title {
   border: solid 1px $link;
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 30px;
   font-size: 20px;
   @include desktop() {
     font-size: 30px;

@@ -1,0 +1,80 @@
+.aboutsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 60px 30px;
+  font-weight: bold;
+  @include desktop() {
+    font-size: 20px;
+    margin: 80px 60px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: $darkgreen;
+    background: $background;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    @include desktop() {
+      font-size: 22px;
+    }
+  }
+}
+
+.legalpagessection {
+  &__text {
+    color: $darkgreen;
+    font-family: $text;
+    font-size: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 20px;
+    @include desktop() {
+      font-size: 20px;
+      margin-left: 338px;
+      margin-right: 338px;
+      margin-bottom: 30px;
+    }
+    &--subp,
+    &--li {
+      margin-bottom: 10px;
+    }
+    &--links {
+      list-style: none;
+      margin-bottom: 10px;
+    }
+    &--link {
+      color: $darkcolor;
+      font-weight: bolder;
+      margin: 0px 4px;
+
+      &:hover {
+        color: $link;
+        background-color: $ligthcolor;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid $ligthgreen;
+  padding: 30px;
+  &__tr--th,
+  &__tr--td,
+  &__tr--title {
+    border: 1px solid $ligthgreen;
+    padding: 8px;
+    text-align: center;
+  }
+  &__tr--title {
+    color: $darkgreen;
+    font-family: $text;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

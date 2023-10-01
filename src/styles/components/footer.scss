@@ -1,9 +1,24 @@
 .footer {
+  margin: 20px 10px;
   display: flex;
-  justify-content: center;
-  margin: 100px 0 30px;
+  flex-direction: column-reverse;
+
   @include desktop() {
     font-size: 20px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+  }
+  &__line {
+    display: none;
+    @include desktop() {
+      display: flex;
+      color: $darkcolor;
+    }
   }
   &__title {
     font-size: 12px;
@@ -24,6 +39,49 @@
       color: $link;
       background-color: $ligthcolor;
       border-radius: 10px;
+    }
+  }
+  &__copy {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+  &__list {
+    width: 83%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    @include desktop() {
+      width: 60%;
+      height: 8vh;
+    }
+    &--item {
+      list-style: none;
+      color: $darkcolor;
+      font-weight: bolder;
+      margin: 0px 4px;
+      font-size: 15px;
+      margin-bottom: 5px;
+      text-align: center;
+
+      &:hover {
+        color: $link;
+        background-color: $ligthcolor;
+        border-radius: 10px;
+      }
+    }
+  }
+  &__ul {
+    @include desktop() {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }
