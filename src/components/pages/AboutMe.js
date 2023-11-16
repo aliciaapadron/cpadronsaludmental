@@ -81,13 +81,6 @@ export function AboutMe() {
           <span className="bold">espiritualidades</span>.
         </p>
         <br />
-        <p className="aboutmesection__text">
-          Cuento con un equipo de <span className="bold">Neuropsicólogas</span>{' '}
-          para realizar los diagnósticos, además de una extensa red de
-          profesionales para la derivación.
-        </p>
-        <br />
-        <br />
         <p className="aboutmesection__text italic underline">¿Más personal?</p>
         <br />
         <p className="aboutmesection__text">

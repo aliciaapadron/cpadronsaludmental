@@ -205,7 +205,7 @@ export function Courses() {
           <p>
             <span className="bold">Antes de nuestra </span>
             <span className="bold">primera cita , te enviaré un </span>
-            <span className="bold">formulario que leeré antes de</span>
+            <span className="bold">formulario que leeré antes de</span>{' '}
             conocernos.
           </p>
           <br />
@@ -221,48 +221,24 @@ export function Courses() {
             inquietudes, desahogarte…
           </p>
           <br />
-          <p className="italic underline">
-            ¿Cuál es el procedimiento si quiero un Diagnóstico?
-          </p>
-          <br />
           <p>
-            Cuando te sientas preparada/o/e te derivaré al{' '}
-            <span className="bold">equipo de Neuropsicología. </span> Te
-            realizaré un informe con mis observaciones durante nuestro trabajo
-            juntas/os/es que servirá a las{' '}
-            <span className="bold">Neuropsicólogas</span> como base para vuestro
-            proceso.
-          </p>{' '}
-          <br />
-          <p>
-            Realizan evaluaciones de
+            Te brindaré información sobre las vías para conseguir el{' '}
+            <span className="bold">Diagnóstico Formal</span> para que puedas
+            elegir la opción que más se adapte a ti.
+            <br />
+            <span className="bold"> Prepararemos juntas/os/es</span> el proceso:{' '}
+            <span className="bold">cuántas citas</span> suelen ser, cuáles
+            suelen ser{' '}
             <span className="bold">
-              {' '}
-              Altas Capacidades, Autismo, (T)DAH, Discalculia, Desorden del
-              procesamiento sensorial, Funciones Ejecutivas, TOC, Depresión...
+              más duras a nivel cognitivo y emocional
             </span>
-          </p>{' '}
-          <br />
-          <p className="italic underline">
-            ¿Y si quiero el diagnóstico pero no puedo trabajar contigo?
+            , herramientas de{' '}
+            <span className="bold">regulación sobre el proceso</span>,
+            explicación del <span className="bold">informe diagnóstico</span>...
+            Además, te explicaré el proceso de{' '}
+            <span className="bold">solicitud de Discapacidad</span> y cuáles
+            podrían ser los retos.
           </p>
-          <br />
-          <p>
-            {' '}
-            <a
-              className="contactlink writeme__link"
-              href="mailto: cpadronsaludmental@gmail.com"
-              title="Enviar un email"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Escrímebe un mail
-            </a>{' '}
-            pidiéndome los datos para la Evaluación diagnóstica, y te mandaré
-            toda la información.
-          </p>
-          <br />
-          <p className="note">*Impuestos incluidos</p>
         </section>
         <div className="writeme">
           <a
