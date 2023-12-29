@@ -151,22 +151,15 @@ export function Courses() {
           <br />
           <ul className="aboutmelist__list">
             <li className="aboutmelist__list--item">
-              Cada sesión dura
-              <span className="green"> 1h y su valor es de </span>
-              <span className="green">75 euros*</span>.
+              Una cita por <span className="green">80€ (66,11+IVA)</span>.
             </li>
             <li className="aboutmelist__list--item">
-              Bono de <span className="green">4 citas </span> por{' '}
-              <span className="green">290€ </span> ( ahorro de 10€ ). Las citas
-              del bono serán semanales o quincenales.
+              Pack de <span className="green">2 citas </span> por{' '}
+              <span className="green">160€ (132,23+IVA).</span>
             </li>
             <li className="aboutmelist__list--item">
-              Tarifa reducida (a pactar si hay plazas disponibles).
-            </li>
-            <li className="aboutmelist__list--item">
-              Tarifa Solidaria 80€/cita (de los cuales 5€ se destinarán a cubrir
-              tarifas reducidas, haciendo de esto un proceso colectivo de
-              conciencia de clase y privilegios).
+              Pack de <span className="green">4 citas </span> por{' '}
+              <span className="green"> 310€ (256,2+IVA)</span>, ahorras 10€.
             </li>
           </ul>
           <br />
@@ -181,13 +174,12 @@ export function Courses() {
           <p className="italic underline">¿Cómo solemos trabajar?</p>
           <br />
           <p>
-            Nuestra cita se añadirá{' '}
-            <span className="bold">
-              automáticamente a tu calendario de google
-            </span>
-            , podrás acceder mediante un <span className="bold">link</span> que
-            llegará a tu correo, y se realizarán mediante{' '}
-            <span className="bold">Meet </span>.
+            Las citas se realizan mediante{' '}
+            <span className="bold">google Meet.</span> Cuando reciba el pago de
+            la cita, te enviaré el{' '}
+            <span className="bold">link de acceso. </span> Además la cita se
+            añadirá automáticamente a tu{' '}
+            <span className="bold">Calendario de Google</span>.
           </p>
           <br />
           <p>
@@ -199,14 +191,27 @@ export function Courses() {
           <br />
           <p>
             Posteriormente y en función de tus intereses las citas pueden{' '}
-            <span className="bold">espaciarse </span>.
+            <span className="bold">espaciarse</span>.
           </p>
           <br />
           <p>
+            {' '}
             <span className="bold">Antes de nuestra </span>
             <span className="bold">primera cita , te enviaré un </span>
             <span className="bold">formulario que leeré antes de</span>{' '}
             conocernos.
+          </p>
+
+          <br />
+          <p>
+            La duración del proceso depende de{' '}
+            <span className="bold">tus necesidades y objetivos</span>,
+            generalmente para una primera detección de{' '}
+            <span className="bold">
+              Neurodivergencias, identificar retos y fortalezas, prevención de
+              crisis
+            </span>
+            , etc, podríamos usar <span className="bold">10 citas</span> aprox.
           </p>
           <br />
           <p>
