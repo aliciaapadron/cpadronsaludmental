@@ -111,12 +111,11 @@ export function Courses() {
           <p className="italic underline">¿Cuánto dura el proceso?</p>
           <br />
           <p>
-            Viaje hacia la calidad de vida (abordaje exhaustivo y profundo):
-            Realizaremos un proceso de Detección de Neurodivergencias exhaustivo
-            y profundo que te ayudará a entenderte, cuidarte y conseguir calidad
-            de vida.
+            <span className="bold">Viaje hacia la calidad de vida</span>{' '}
+            (abordaje exhaustivo y profundo): Realizaremos un proceso de
+            Detección de Neurodivergencias exhaustivo y profundo que te ayudará
+            a entenderte, cuidarte y conseguir calidad de vida.
           </p>
-          <br />
           <p>
             Hablaremos de tus sospechas, abordaremos tus antecedentes personales
             y familiares y los relacionaremos con tus vivencias y
@@ -155,7 +154,9 @@ export function Courses() {
           </p>
           <br />
           <p>
-            <span>Esquema de mis neurodivergencias (abordaje básico):</span>{' '}
+            <span className="bold">
+              Esquema de mis neurodivergencias (abordaje básico):
+            </span>{' '}
             Proceso cerrado de detección destinado a personas con habilidad en
             la introspección, fluidez verbal y habilidad en realizar tareas
             entre citas. Suele durar 5-10 citas. Hablaremos de tus sospechas,
@@ -169,13 +170,7 @@ export function Courses() {
             Después puedes pedir el abordaje profundo, o alguno de los otros
             servicios arriba mencionados sin problema.
           </p>
-          <br />
-          <p>
-            Viaje hacia la calidad de vida (abordaje exhaustivo y profundo):
-            Realizaremos un proceso de Detección de Neurodivergencias exhaustivo
-            y profundo que te ayudará a entenderte, cuidarte y conseguir calidad
-            de vida.
-          </p>
+
           <br />
           <p className="italic underline">¿Cómo funciona?</p>
           <br />

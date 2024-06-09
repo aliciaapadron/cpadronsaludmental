@@ -10,23 +10,32 @@ export function Diagnostic() {
       <section className="diagnostic">
         <p className="diagnostic__text">
           <span className="bold">
-            Diagnóstico diferencial y multidisciplinar
+            Diagnóstico diferencial y multidisciplinar{' '}
           </span>
-          realizado por profesionales neurodivergentes. Realizamos el proceso
-          <span className="bold">online</span> y está destinado a personas
-          <span className="bold">mayores de 18 años</span> con fluidez verbal
-          fluida. Tenemos una
+          realizado por profesionales neurodivergentes. Realizamos el proceso{' '}
+          <span className="bold">online</span> y está destinado a personas{' '}
+          <span className="bold">mayores de 18 años </span> con fluidez verbal
+          fluida.
+        </p>
+        <br></br>
+        <p className="diagnostic__text">
+          Tenemos una
           <span className="bold"> perspectiva actualizada</span> y formada en
           diversidades. Somos especialistas en detectar neurodivergencias en
-          perfiles con tendencia a enmascarar las características
+          perfiles con tendencia a enmascarar las características{' '}
           <span className="bold">
             neurodivergentes, como mujeres y personas socializadas en femenino
-            (AFAB), personas racializadas, trans
+            (AFAB), personas racializadas, trans{' '}
           </span>
-          y que han sufrido violencia sistemática. En el informe final de
-          evaluación tras el diagnóstico encontrarás recogido todo el proceso,
-          las pruebas y sus resultados, así como las orientaciones pertinentes
-          para mejorar tu bienestar. Te servirá para iniciar el
+          y que han sufrido violencia sistemática.
+        </p>
+        <br></br>
+        <br></br>
+        <p className="diagnostic__text">
+          En el informe final de evaluación tras el diagnóstico encontrarás
+          recogido todo el proceso, las pruebas y sus resultados, así como las
+          orientaciones pertinentes para mejorar tu bienestar. Te servirá para
+          iniciar el{' '}
           <span className="bold">
             trámite de la Discapacidad, para solicitar adaptaciones en tu
             trabajo y estudios.
@@ -88,7 +97,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Cris/Candela/María</span>
+                  <span className="bold">Cris/Candela/María/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -151,7 +160,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Candela/Lorena/María</span>
+                  <span className="bold">Candela/Lorena/María/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -177,7 +186,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Cris/María</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Cris/María/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -216,7 +226,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Lorena/Candela</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Lorena/Candela/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -275,7 +286,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Candela/Lorena</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Candela/Lorena/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -328,7 +340,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Lorena</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Lorena/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -354,7 +367,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Cris/María</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Cris/María/Ana Belén</span>
                 </li>
               </ul>
               <br></br>

@@ -292,28 +292,18 @@ export function Team() {
                 en varios idiomas: español, catalán e italiano.
               </p>
               <p className="team__cards--text bold">
-                El valor de una cita de 1h es de 70 euros.
-              </p>
-              {/* <p className="team__cards--text">
-                <a
-                  className="contactlink"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/unapsicoxulisima/"
-                >
-                  Mi IG es @unapsicoxulisima
-                </a>
+                Atiendo de lunes a viernes, 9:00 a 2:00 (tardes a consultar).
               </p>
               <p className="team__cards--text">
                 <a
                   className="contactlink"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfZmuE7IV72BA9TCra9KC5IGuBis3vRGnjsQRqWGaiZTNPmfg/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd2ENVzRP1LrouJ0c2JHzVmOn3OpEIxHafiNLZxyCWgB8JImA/viewform"
                 >
                   Mi formulario
                 </a>
-              </p> */}
+              </p>
             </div>
           </CollapsibleCard>
         </div>

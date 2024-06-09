@@ -53,9 +53,6 @@ export function AboutMe() {
           <span className="bold">
             Asesora en Neurodivergencias, Experta en Autismo, (T)DAH y AACC.
           </span>{' '}
-        </p>
-        <br />
-        <p className="aboutmesection__text">
           Soy{' '}
           <span className="bold">
             Especialista en Terapias Contextuales y de Tercera Generación,
