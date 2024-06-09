@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 // componentes
 import { Home } from './pages/Home';
 import { Diagnostic } from './pages/Diagnostic';
+import { Team } from './pages/Team';
 import { Articles } from './pages/Articles';
 import { Courses } from './pages/Courses';
 import { AboutMe } from './pages/AboutMe';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/diagnostic" element={<Diagnostic />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />

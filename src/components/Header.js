@@ -56,6 +56,9 @@ export function Header() {
             >
               <li className="nav__list--item">diagnósticos</li>
             </Link>
+            <Link to="/team" className="nav__link" title="Ir a EQUIPO">
+              <li className="nav__list--item">equipo</li>
+            </Link>
             <Link to="/courses" className="nav__link" title="Ir a TARIFAS">
               <li className="nav__list--item">tarifas</li>
             </Link>

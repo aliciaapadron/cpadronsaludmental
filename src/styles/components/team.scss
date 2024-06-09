@@ -1,4 +1,14 @@
-.diagnostic {
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 60px 30px;
+  font-weight: bold;
+  @include desktop() {
+    font-size: 20px;
+    margin: 80px 60px;
+  }
   &__text {
     color: $darkgreen;
     font-family: $text;
@@ -9,25 +19,22 @@
       margin: 0 338px;
     }
   }
-}
 
-.diagnostic {
   &__title {
+    text-align: center;
+    margin-bottom: 30px;
     color: $darkgreen;
-    font-family: $text;
+    background: $background;
+    padding: 30px;
+    border-radius: 10px;
     font-size: 16px;
-    margin: 0 48px;
-    padding-top: 40px;
-    font-weight: bolder;
-    text-decoration: underline;
     @include desktop() {
-      font-size: 20px;
-      margin: 0 338px;
+      font-size: 22px;
     }
   }
 }
 
-.diagnostic {
+.team {
   &__listdata {
     margin: 10px 0;
 
@@ -46,7 +53,7 @@
   }
 }
 
-.diagnostic {
+.team {
   &__cards {
     font-family: sans-serif;
     text-align: center;
@@ -58,6 +65,14 @@
     }
     &--text {
       padding: 20px 20px 0px 20px;
+    }
+  }
+  &__img {
+    width: 140px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    @include desktop() {
+      width: 200px;
     }
   }
 }

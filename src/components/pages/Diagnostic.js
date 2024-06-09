@@ -62,7 +62,7 @@ export function Diagnostic() {
         <p className="diagnostic__title">FASE SCREENING/CRIBADO:</p>
         <div className="diagnostic__cards">
           <CollapsibleCard title="CITA 1">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 {' '}
                 Durante esta primera cita nos contarás tus sospechas, te
@@ -105,7 +105,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA 2">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 {' '}
                 Durante esta cita realizaremos la entrevista psicológica, la
@@ -138,7 +138,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA CON FAMILIAR">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 Durante esta cita realizaremos una entrevista a un familiar/ser
                 querido en la que haremos preguntas sobre hitos desarrollo,
@@ -168,7 +168,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA 3">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 Durante esta cita realizaremos la devolución de impresiones y
                 resultados. Te daremos anticipación de la siguiente fase del
@@ -205,7 +205,7 @@ export function Diagnostic() {
         <p className="diagnostic__title">FASE DIAGNÓSTICO:</p>
         <div className="diagnostic__cards">
           <CollapsibleCard title="CITA TEST PERSONALIDAD">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 {' '}
                 Realizaremos test de personalidad: Millon test. Durante esta
@@ -233,7 +233,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA PERFIL SENSORIAL">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 {' '}
                 Previamente te enviaremos un test para que hagas en casa.
@@ -264,7 +264,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA (T)DAH">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 Durante esta cita repasaremos los test DIVA y test de Brown que
                 te habremos enviado previamente. También te anticiparemos la
@@ -292,7 +292,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA AUTISMO">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 Durante esta cita realizaremos el test de evaluación de autismo
                 ADOS-2. También te anticiparemos la siguiente cita. Esta cita es
@@ -319,7 +319,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA CO-OCURRENCIAS">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 Si durante la exploración hemos observado co-ocurrencias,
                 realizaremos esta cita en la que se pasarán test. Por ejemplo de
@@ -345,7 +345,7 @@ export function Diagnostic() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard title="CITA DEVOLUCIÓN">
-            <div>
+            <div className="diagnostic__cards--text">
               <p>
                 {' '}
                 Durante esta cita te explicaremos los datos obtenidos, las

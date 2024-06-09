@@ -1,13 +1,14 @@
 .collapsible-card {
   border: 1px solid #ddd;
   margin: 10px 0;
+
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.3s ease;
 
   &__header {
     background-color: #f7f7f7;
-    padding: 10px;
+    padding: 40px;
     cursor: pointer;
     user-select: none;
 
@@ -21,17 +22,9 @@
     background-color: #fff;
     border-top: 1px solid #ddd;
   }
-}
 
-.diagnostic {
-  &__cards {
-    font-family: sans-serif;
-    text-align: center;
-    padding-top: 40px;
-    margin: 0 48px;
-    @include desktop() {
-      font-size: 20px;
-      margin: 0 338px;
-    }
+  &__icon {
+    width: 15px;
+    margin-top: 5px;
   }
 }
