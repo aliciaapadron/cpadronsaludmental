@@ -1,0 +1,59 @@
+.diagnostic {
+  &__text {
+    color: $darkgreen;
+    font-family: $text;
+    font-size: 16px;
+    margin: 0 48px;
+    @include desktop() {
+      font-size: 20px;
+      margin: 0 338px;
+    }
+  }
+}
+
+.diagnostic {
+  &__title {
+    color: $darkgreen;
+    font-family: $text;
+    font-size: 16px;
+    margin: 0 48px;
+    padding-top: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    @include desktop() {
+      font-size: 20px;
+      margin: 0 338px;
+    }
+  }
+}
+
+.diagnostic {
+  &__listdata {
+    margin: 10px 0;
+
+    &--item {
+      list-style: none;
+    }
+    &--item::before {
+      content: '\2022';
+      position: relative;
+      left: -10px;
+      font-size: 135%;
+      color: $darkcolor;
+      display: inline-block;
+      margin-left: -10px;
+    }
+  }
+}
+
+.clarification {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.summary {
+  margin-top: 40px;
+  @include desktop() {
+    margin-top: 80px;
+  }
+}

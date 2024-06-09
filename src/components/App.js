@@ -1,11 +1,10 @@
 import '../styles/App.scss';
-//rutas
+// rutas
 import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-//useState y useEffect
-
-//componentes
+// componentes
 import { Home } from './pages/Home';
+import { Diagnostic } from './pages/Diagnostic';
 import { Articles } from './pages/Articles';
 import { Courses } from './pages/Courses';
 import { AboutMe } from './pages/AboutMe';
@@ -27,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/articles" element={<Articles />} />
+          <Route path="/diagnostic" element={<Diagnostic />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
