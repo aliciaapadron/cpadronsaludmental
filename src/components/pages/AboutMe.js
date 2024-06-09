@@ -194,7 +194,7 @@ export function AboutMe() {
         <br></br>
         <div className="aboutmesection__text">
           <a
-            className="contactlink writeme__link"
+            className="contactlink writeme__link writeme__team"
             href="/team"
             title="Ver equipo"
             target="_blank"

@@ -33,10 +33,19 @@ export function Courses() {
                 <span className="price">Precio: 100€. </span>
             </li>
         </ul> */}
-        <section className="aboutmelist">
-          <p className="aboutmelist__text">
-            Atiendo online y te puedo ayudar a:
+
+        <section className="explanation">
+          <br />
+          <p className="displaynone">
+            Durante nuestras sesiones te acompañaré a conocer tu identidad
+            detrás del masking, a respetar tus necesidades sensoriales y a
+            practicar la compasión contigo misma/o/e. Te ayudaré a identificar
+            tus fortalezas para sacarles el mayor partido y tus desafíos para
+            introducir herramientas y adaptaciones.
           </p>
+          <br />
+
+          <p>Atiendo online y te puedo ayudar a:</p>
           <br />
           <ul className="aboutmelist__list">
             <h2 className="aboutmelist__list--title">
@@ -87,8 +96,8 @@ export function Courses() {
               Descubrir posibles coocurrencias
             </li>
           </ul>
-          <br />
         </section>
+
         <section className="explanation">
           <br />
           <p>
@@ -277,17 +286,15 @@ export function Courses() {
           </ul>
           <br />
         </section>
-        <div className="writeme">
+        <article className="coursection__title">
           <a
-            className="contactlink writeme__link"
+            className="emailLink"
             href="https://forms.gle/XczPAoxwFhU7NZBU9"
             title="Rellena el formulario"
-            target="_blank"
-            rel="noreferrer"
           >
-            Rellena el formulario y empieza tu proceso.
-          </a>
-        </div>
+            Rellena el formulario y empieza tu proceso
+          </a>{' '}
+        </article>
       </section>
 
       <Footer />
