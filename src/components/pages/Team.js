@@ -292,7 +292,10 @@ export function Team() {
                 en varios idiomas: español, catalán e italiano.
               </p>
               <p className="team__cards--text bold">
-                Atiendo de lunes a viernes, 9:00 a 2:00 (tardes a consultar).
+                El Atiendo de lunes a viernes, 9:00 a 2:00 (tardes a consultar).
+              </p>
+              <p className="team__cards--text bold">
+                El valor de una cita de 1h es de 70 euros.
               </p>
               <p className="team__cards--text">
                 <a
