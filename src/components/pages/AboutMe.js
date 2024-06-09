@@ -3,6 +3,36 @@ import { Header } from '../Header';
 import eli from '../../images/eli.png';
 
 export function AboutMe() {
+  const data = {
+    Neurodivergencias: [
+      'Experta en Espectro Autista: Diagnóstico, Intervención e Inclusión Social',
+      'Experta en (T)DAH: Dificultades del Aprendizaje y Dificultades de Conducta',
+      'Identificación de Autismo en Población Adulta',
+      'Identificación de (T)DAH en Población Adulta',
+      'Alta Capacidad y Autismo: Doble Excepcionalidad',
+      'Psicojurídico y Neurodivergencias',
+      'Detección y Acompañamiento de Neurodivergencias en Población Adulta',
+      'Procesamiento Sensorial en personas Neurodivergentes a lo largo de todo el ciclo vital',
+      'Evaluación e Intervención Multidisciplinar en Adultos en el Espectro Autista',
+      'Autismo y (T)DAH a lo largo del ciclo vital: Un enfoque desde la neurodiversidad',
+    ],
+    General: [
+      'Especialista en Terapias Contextuales y de Tercera Generación',
+      'Mediadora en Educación Afectivo-Sexual',
+      'Educadora Familiar',
+      'Grado Universitario en Psicología (UNED) en curso',
+    ],
+    Trauma: [
+      'Evaluación y reparación del Apego en Psicoterapia con Enfoque Integrador',
+      'Tratamiento del Estrés Postraumático (TEPT)',
+      'Experta en duelo',
+      'Evaluación y Abordaje de la Ideación Suicida',
+      'Experta en Prevención del ASI',
+      'Intervención con Sistema de Familias Internas (IFS)',
+      'Especialista en Apego y Trauma',
+    ],
+  };
+
   return (
     <>
       <Header />
@@ -20,168 +50,168 @@ export function AboutMe() {
       <section className="aboutmesection">
         <p className="aboutmesection__text">
           Soy Cris, mujer Autista, Hiperactiva y Altas Capacidades. Soy{' '}
-          <span className="bold">Experta en Autismo, (T)DAH y AACC</span> y{' '}
-          además de{' '}
-          <span className="bold">Educadora/Mediadora Afectivo-sexual</span>,{' '}
-          <span className="bold">Educadora Familiar</span> ,{' '}
-          <span className="bold">Especialista en Terapias Contextuales</span> y
-          de <span className="bold">Tercera Generación, Experta en Duelo</span>{' '}
-          y estoy formada en <span className="bold">Apego y Trauma</span> desde
-          un enfoque integrador (TEP, ASI...)
-        </p>
-        <br />
-        <p className="aboutmesection__text">
-          Acompaño a personas Autistas y/o (T)TDAH a{' '}
-          <span className="bold">conocer su identidad</span> detrás del{' '}
-          <span className="bold">masking</span>, a respetar sus{' '}
-          <span className="bold">necesidades sensoriales</span>, a{' '}
-          <span className="bold">practicar la compasión</span> con si
-          mismos/as/es y a <spn className="bold">relacionarse exitosamente</spn>{' '}
-          con sus seres queridos.
-        </p>
-        <br />
-        <p className="aboutmesection__text">
-          Mi objetivo es ofrecer un servicio{' '}
           <span className="bold">
-            sin jerarquizar, de Neurodivergente a Neurodivergente.
-          </span>
-        </p>
-        <br />
-        <p className="aboutmesection__text">
-          Soy especialista en Neurodivergencias y estoy formada en{' '}
-          <span className="bold">
-            Altas Capacidades (AACC), Doble Excepcionalidad (2e) y
-            Excepcionalidad múltiple, Trastornos de la Conducta Alimentaria
-            (TCA)
+            Asesora en Neurodivergencias, Experta en Autismo, (T)DAH y AACC.
           </span>{' '}
-          y otras <span className="bold">co-ocurrencias</span> con el Autismo y
-          el (T)DAH.
         </p>
         <br />
         <p className="aboutmesection__text">
-          Durante mis <span className="bold">años de experiencia</span> he
-          acompañado a <span className="bold">personas Autistas y (T)DAH</span>{' '}
-          a{' '}
+          Soy{' '}
           <span className="bold">
-            encontrarse a si mismos/as/es en la adultez, comprenderse,
-            respetarse y priorizar sus necesidades
+            Especialista en Terapias Contextuales y de Tercera Generación,
+            además de Educadora Afectivo-Sexual y Educadora Familiar.
           </span>
-          .
         </p>
         <br />
-
         <p className="aboutmesection__text">
-          Acompaño desde un enfoque
-          <span className="bold"> Informado en Apego y Trauma</span>,
-          <span className="bold"> LGTB+ friendly</span>, enfoque{' '}
-          <span className="bold">de género</span>,{' '}
-          <span className="bold">antigordófobo</span>, aliada{' '}
-          <span className="bold">antirracista</span> y{' '}
-          <span className="bold">respetuosa</span> con las{' '}
-          <span className="bold">espiritualidades</span>.
+          Soy{' '}
+          <span className="bold">
+            Experta en Duelo y estoy formada en Apego, Trauma (TEP, ASI...).
+          </span>
         </p>
+        <br />
+        <p className="aboutmesection__text">
+          Estoy formada en{' '}
+          <span className="bold">
+            Doble Excepcionalidad (2e) y Excepcionalidad múltiple, Trastorno
+            Obsesivo Compulsivo (TOC), Trastornos de la Conducta Alimentaria
+            (TCA) y otras co-ocurrencias para favorecer un abordaje profundo.
+            Tengo un enfoque integrador y contextual.
+          </span>{' '}
+        </p>
+        <br />
+        <p className="aboutmesection__text">
+          Acompaño a personas{' '}
+          <span className="bold">Autistas, (T)TDAH y Altas Capacidades</span> a
+          conocer su identidad detrás del masking, a respetar sus necesidades
+          sensoriales, practicar la compasión consigo mismos/as/es y a
+          relacionarse satisfactoriamente con sus seres queridos.
+        </p>
+        <br />
+        <p className="aboutmesection__text">
+          Mi objetivo es ofrecer un{' '}
+          <span className="bold">
+            servicio sin jerarquizar, de Neurodivergente a Neurodivergente.
+          </span>{' '}
+          En el que compartiré mis detecciones y llegaremos a conclusiones
+          juntas/os/es, ya que tu eres la/el principal experta/o/e en tí
+          misma/o/e.
+        </p>
+        <br />
+        <p className="aboutmesection__text">
+          Acompaño desde un{' '}
+          <span className="bold">
+            enfoque actualizado e informado en diversidades
+          </span>
+        </p>
+        <br />
+        <p className="aboutmesection__text">
+          Informado y amable con las personas{' '}
+          <span className="bold">
+            no binarias, las no monogamias y enfoque de género.
+          </span>{' '}
+          Amable con la comunidad{' '}
+          <span className="bold">
+            LGTBIQA+, antigordófobo, aliada antirracista y respetuosa con las
+            espiritualidades.
+          </span>
+        </p>
+        <br />
+        <p className="aboutmesection__text">
+          Soy especialista en el acompañamiento y la detección de{' '}
+          <span className="bold">mujeres cis/trans y personas AFAB</span>.
+        </p>
+        <br />
+        <br />
+        <p className="aboutmesection__text italic underline">Formación</p>
+        <br />
+        <div className="aboutmesection__text">
+          {Object.keys(data).map((category) => (
+            <div key={category} className="category">
+              <h2>{category}</h2>
+              <ul>
+                {data[category].map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
         <br />
         <p className="aboutmesection__text italic underline">¿Más personal?</p>
         <br />
         <p className="aboutmesection__text">
           Conseguir mi diagnóstico de Autismo y (T)DAH a los 26 años me hizo
           repasar el trauma que conlleva la falta de diagnóstico temprano. Lo
-          que me impulsó a ofrecerle a otros/as/es el{' '}
-          <span className="bold">Soporte y el Acompañamiento</span> que yo
-          hubiera deseado.
+          que me impulsó a ofrecerle a otros/as/es el Soporte y el
+          Acompañamiento que yo hubiera deseado.
         </p>
         <br />
         <p className="aboutmesection__text">
-          A los 16 años comencé mi{' '}
-          <span className="bold">
-            odisea por los Servicios de Salud Mental{' '}
-          </span>
-          públicos:{' '}
-          <span className="bold">
-            sobremedicalización, mala praxis, atención deficiente
-          </span>
-          … No me fue mejor por lo privado. En total pasé por{' '}
-          <span className="bold">2 psiquitras y 5 psicos</span>, pero lo que{' '}
-          <span className="bold">rompió la Brecha de Acceso</span> a mi{' '}
-          <span className="bold">diagnóstico</span> fueron las{' '}
-          <span className="bold">Redes Sociales</span>. Trasteando sobre la{' '}
-          <span className="bold">Alta Sensibilidad</span> (High Sensitivity)
-          llegué a la <span className="bold">Hiper Sensibilidad Autista</span>.
-          Ahí me dejé llevar por Hiperfocos de{' '}
-          <span className="bold">información</span> sobre{' '}
-          <span className="bold">otras mujeres y personas No Binarias</span>{' '}
-          (socializadas como mujeres) <span className="bold">autistas</span>, en
-          cuyas características <span className="bold">me vi reflejada</span>.
-          Lo que me llevó al <span className="bold">diagnóstico oficial</span>.
-        </p>
-        <br />
+          A los 16 años comencé mi odisea por los Servicios de Salud Mental
+          públicos: sobremedicalización, mala praxis, atención deficiente… No me
+          fue mejor por lo privado. En total pasé por 2 psiquitras y 5 psicos,
+          pero lo que rompió la Brecha de Acceso a mi diagnóstico fueron las
+          Redes Sociales. Trasteando sobre la Alta Sensibilidad (High
+          Sensitivity) llegué a la Hiper Sensibilidad Autista. Ahí me dejé
+          llevar por Hiperfocos de información sobre otras mujeres y personas No
+          Binarias (socializadas como mujeres) autistas, en cuyas
+          características me vi reflejada. Lo que me llevó al diagnóstico
+          oficial.
+        </p>{' '}
+        <br></br>
         <p className="aboutmesection__text">
-          <span className="bold">
-            Encontrarme como Mujer Autista, (T)DAH y AACC
-          </span>{' '}
-          le dio <span className="bold">sentido a mis vivencias</span> y me
-          ayudó a<span className="bold">comprenderme</span>. Me ha impulsado a{' '}
-          <span className="bold">dejar el masking</span>, ser{' '}
-          <span className="bold">compasiva</span> conmigo misma y{' '}
-          <span className="bold">honrar mis necesidades</span>. Así como a{' '}
-          <span className="bold">identificar</span> los{' '}
-          <span className="bold">precipitantes</span> de mis colapsos{' '}
-          <span className="bold">sensoriales</span>, a entender mi{' '}
-          <span className="bold">maternidad</span> y mis{' '}
-          <span className="bold">relaciones sociales</span>.
-        </p>
-        <br />
+          Encontrarme como Mujer Autista, (T)DAH y AACC le dio sentido a mis
+          vivencias y me ayudó a comprenderme. Me ha impulsado a dejar el
+          masking, ser compasiva conmigo misma y honrar mis necesidades. Así
+          como a identificar los precipitantes de mis colapsos sensoriales
+          (meltdowns/shutdowns), a entender mi maternidad y mis pensamientos. He
+          tenido varios burnouts a lo largo de mi vida que se confundieron con
+          depresión. Destacó el que tuve durante mi embarazo, en medio de la
+          pandemia y en un curso muy complicado de la universidad. Todos mis
+          desafíos sensoriales, cognitivos y emocionales se acentuaron un montón
+          y empecé a descubrirme como Neurodivergente. Fue durante mi puerperio
+          que me atreví a conseguir el Diagnóstico. Toda la incertidumbre y
+          soledad que viví me animó a hacer de este camino un proceso más
+          amable, informado y menos solitario para otras personas.
+        </p>{' '}
+        <br></br>
         <p className="aboutmesection__text">
-          Desde mi enfoque{' '}
-          <span className="bold">De Neurodivergente a Neurodivergente </span>{' '}
-          procuro{' '}
-          <span className="bold">
-            promocionar el trabajo de nuestra comunidad
-          </span>
-          . Por ello el <span className="bold">Logo</span> de mi empresa lo
-          realizó{' '}
+          Desde peque, ha sido difícil para mí sentirme “parte de”, por lo que
+          aprendí a relacionarme desde una “personalidad” que era mitad trauma y
+          mitad masking. Debido a diversas vivencias, desarrollé Estrés
+          Postraumático, Depresión, Ansiedad, TCA y TOC. Ahora en la adultez he
+          encontrado mi lugar seguro gracias al activismo, y he podido
+          relacionar mi trabajo con mi pasión y mi necesidad de responsabilidad
+          social. Lo que me hace muy feliz.
+        </p>{' '}
+        <br></br>
+        <p className="aboutmesection__text">
+          Para mi es esencial promover y apoyar la economía y los
+          emprendimientos de las personas neurodivergentes, por lo que mi equipo
+          está formado íntegramente por Mujeres Neurodivergentes.
+        </p>
+        <br></br>
+        <div className="aboutmesection__text">
           <a
-            className="contactlink"
-            href="https://www.instagram.com/felicityofnow1/="
-            title="Ir a Andrea"
+            className="contactlink writeme__link"
+            href="/team"
+            title="Ver equipo"
             target="_blank"
             rel="noreferrer"
           >
-            Andrea
-          </a>{' '}
-          y la web{' '}
-          <a
-            className="contactlink"
-            href="https://aliciaapadron.github.io/portfolio/#/"
-            title="Ir a Alicia"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Alicia
+            Conoce al equipo.
           </a>
-          . Además en mis historias destacadas puedes encontrar{' '}
-          <a
-            className="contactlink"
-            href="https://instagram.com/c.padronsaludmental?igshid=YmMyMTA2M2Y="
-            title="Ir mi instagram"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Emprendimientos de jóvenes Autistas y (T)DAH
-          </a>
-          .
-          <br />
-          <br />
-        </p>
+        </div>
         <div className="writeme">
           <a
             className="contactlink writeme__link"
-            href="mailto: cpadronsaludmental@gmail.com"
-            title="Enviar un email"
+            href="https://forms.gle/XczPAoxwFhU7NZBU9"
+            title="Rellena el formulario"
             target="_blank"
             rel="noreferrer"
           >
-            Escríbeme y empieza tu proceso.
+            Rellena el formulario y empieza tu proceso.
           </a>
         </div>
       </section>

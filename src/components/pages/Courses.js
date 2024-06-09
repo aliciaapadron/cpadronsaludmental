@@ -9,47 +9,33 @@ export function Courses() {
         <article className="coursection__title">
           <a
             className="emailLink"
-            href="mailto: cpadronsaludmental@gmail.com"
-            title="Enviar un email"
+            href="https://forms.gle/XczPAoxwFhU7NZBU9"
+            title="Rellena el formulario"
           >
-            Escríbeme aquí
+            Rellena el formulario y empieza tu proceso
           </a>{' '}
-          <p className="coursection__title--subtitle">
-            para tu primer Acompañamiento y cuéntame:
-          </p>
-          <ul className="coursection__listdata">
-            <li className="coursection__listdata--item">
-              Diferencia horaria respecto a España
-            </li>
-            <li className="coursection__listdata--item">
-              Disponibilidad horaria para citarnos
-            </li>
-          </ul>
-          <p className="coursection__text">
-            Y yo te responderé con las citas disponibles y los datos de pago
-          </p>
         </article>
-        <ul className="coursection__list">
-          <li className="coursection__list--item display">
-            Quiero dejar de hacer masking.{' '}
-            <span className="price">Precio: 70€. </span>
-          </li>
-          <li className="coursection__list--item display">
-            Cómo ser (T)DAH/(T)EA en el mundo laboral y no morir en el intento.{' '}
-            <span className="price">Precio: 100€. </span>
-          </li>
-          <li className="coursection__list--item display">
-            Relaciones sexo-afectivas y (T)DAH/(T)EA.{' '}
-            <span className="price">Precio: 100€. </span>
-          </li>
-          <li className="coursection__list--item display">
-            Alimentación y (T)DAH/(T)EA.{' '}
-            <span className="price">Precio: 100€. </span>
-          </li>
-        </ul>
+        {/* <ul className="coursection__list">
+            <li className="coursection__list--item display">
+                Quiero dejar de hacer masking.{' '}
+                <span className="price">Precio: 70€. </span>
+            </li>
+            <li className="coursection__list--item display">
+                Cómo ser (T)DAH/(T)EA en el mundo laboral y no morir en el intento.{' '}
+                <span className="price">Precio: 100€. </span>
+            </li>
+            <li className="coursection__list--item display">
+                Relaciones sexo-afectivas y (T)DAH/(T)EA.{' '}
+                <span className="price">Precio: 100€. </span>
+            </li>
+            <li className="coursection__list--item display">
+                Alimentación y (T)DAH/(T)EA.{' '}
+                <span className="price">Precio: 100€. </span>
+            </li>
+        </ul> */}
         <section className="aboutmelist">
           <p className="aboutmelist__text">
-            Atiendo online y mis servicios son los siguientes:
+            Atiendo online y te puedo ayudar a:
           </p>
           <br />
           <ul className="aboutmelist__list">
@@ -57,60 +43,48 @@ export function Courses() {
               Personas Neurodivergentes o que sospechen serlo:
             </h2>
             <li className="aboutmelist__list--item">
-              Acompañamiento Emocional desde el paradigma de las
-              Neurodivergencias
+              Detección de Neurodivergencias
             </li>
             <li className="aboutmelist__list--item">
-              Autoconocimiento como Autista/(T)DAH
+              Identificar, comprender y regular tus características
+              neurodivergentes (autismo, (t)dah, altas capacidades)
             </li>
             <li className="aboutmelist__list--item">
               Preveción y gestión de Crisis (Meltdown y Shutdown)
-            </li>
-            <li className="aboutmelist__list--item">Sexualidad</li>
-            <li className="aboutmelist__list--item">Alimentación</li>
-            <li className="aboutmelist__list--item">
-              Derivación para el Diagnóstico
-            </li>
-            <li className="aboutmelist__list--item">Autocuidado </li>
-            <li className="aboutmelist__list--item">
-              Maternidad y preparación al embarazo
             </li>
             <li className="aboutmelist__list--item">
               Identificación de retos y fortalezas
             </li>
             <li className="aboutmelist__list--item">
-              Detección de neurodivergencias
+              Dificultades sensoriales y adaptaciones
             </li>
             <li className="aboutmelist__list--item">
-              Derivación para el diagnóstico
+              Dejar de hacer masking y conocerte detrás de él
             </li>
             <li className="aboutmelist__list--item">
-              Dificultades sensoriales
-            </li>
-            <li className="aboutmelist__list--item">Dejar de hacer masking</li>
-            <li className="aboutmelist__list--item">
-              Preparación del diagnóstico formal
+              Preparación del diagnóstico formal por lo público o lo privado{' '}
             </li>
             <li className="aboutmelist__list--item">
               Informe para diagnóstico formal
             </li>
-            <li className="aboutmelist__list--item">Asesoramiento laboral</li>
             <li className="aboutmelist__list--item">
-              Adaptaciones y herramientas de gestión
+              Preparación de la solicitud de la Discapacidad
             </li>
-            <li className="aboutmelist__list--item">Relaciones sociales</li>
+            <li className="aboutmelist__list--item">
+              Asesoramiento laboral/asesoría para el emprendimiento
+            </li>
+            <li className="aboutmelist__list--item">Sexualidad</li>
+            <li className="aboutmelist__list--item">Gestión económica</li>
+            <li className="aboutmelist__list--item">Alimentación</li>
+            <li className="aboutmelist__list--item">Menstruación</li>
             <li className="aboutmelist__list--item">
               Preparación de retos (viajes, exámenes, entrevistas...)
             </li>
-          </ul>
-          <br />
-          <ul className="aboutmelist__list">
-            <h2 className="aboutmelist__list--title">Profesionales</h2>
             <li className="aboutmelist__list--item">
-              Consultas de caso puntuales
+              Embarazo y puerperio (maternidad/paternidad/aternidad)
             </li>
             <li className="aboutmelist__list--item">
-              Grupo de Consultas de caso (grupo reducido)
+              Descubrir posibles coocurrencias
             </li>
           </ul>
           <br />
@@ -118,33 +92,95 @@ export function Courses() {
         <section className="explanation">
           <br />
           <p>
-            Durante nuestras sesiones te acompañaré a{' '}
-            <span className="bold">conocer tu identidad detrás del </span>
-            <span className="bold">masking , a respetar tus </span>
-            <span className="bold">necesidades sensoriales , a </span>
-            <span className="bold">
-              practicar la compasión contigo misma/o/e y a relacionarte
-              exitosamente con tus seres queridos.
-            </span>
+            Durante nuestras sesiones te acompañaré a conocer tu identidad
+            detrás del masking, a respetar tus necesidades sensoriales y a
+            practicar la compasión contigo misma/o/e. Te ayudaré a identificar
+            tus fortalezas para sacarles el mayor partido y tus desafíos para
+            introducir herramientas y adaptaciones.
+          </p>
+          <br />
+          <p className="italic underline">¿Cuánto dura el proceso?</p>
+          <br />
+          <p>
+            Viaje hacia la calidad de vida (abordaje exhaustivo y profundo):
+            Realizaremos un proceso de Detección de Neurodivergencias exhaustivo
+            y profundo que te ayudará a entenderte, cuidarte y conseguir calidad
+            de vida.
+          </p>
+          <br />
+          <p>
+            Hablaremos de tus sospechas, abordaremos tus antecedentes personales
+            y familiares y los relacionaremos con tus vivencias y
+            neurodivergencias. Detectaremos tus fortalezas para aprovecharlas y
+            tus desafíos para proponer adaptaciones, hablaremos de tus
+            necesidades sensoriales y herramientas para gestionarlas. Haremos
+            plan de prevención y gestión de crisis, hablaremos de tus intereses
+            especiales y cómo aprovecharlos para encontrarte mejor y
+            regularte... Detectaremos co-ocurrencias (trauma, toc, ansiedad
+            social, alexitimia…).
+          </p>
+          <br />
+          <p>
+            Realizaremos listas de rasgos y test de cribados juntas/es/os, te
+            explicaré las preguntas y te pondré ejemplos para que haya menor
+            probabilidad de falso negativo.
+          </p>
+          <br />
+          <p>
+            Te acompañaré durante tus sucesos vitales desde la compasión
+            ayudándote a deconstruir la exigencia y el capacitismo
+            interiorizado, brindándote herramientas de gestión adaptadas a tus
+            neurodivergencias.
+          </p>
+          <br />
+          <p>
+            Te brindaré información sobre las vías para conseguir el Diagnóstico
+            Formal para que puedas elegir la opción que más se adapte a ti y
+            prepararemos juntas/os/es el proceso. Además, te explicaré el
+            proceso de solicitud de Discapacidad y cuáles podrían ser los retos.{' '}
+          </p>
+          <br />
+          <p>
+            La duración del proceso depende de tus necesidades, prioridades y
+            objetivos.
+          </p>
+          <br />
+          <p>
+            <span>Esquema de mis neurodivergencias (abordaje básico):</span>{' '}
+            Proceso cerrado de detección destinado a personas con habilidad en
+            la introspección, fluidez verbal y habilidad en realizar tareas
+            entre citas. Suele durar 5-10 citas. Hablaremos de tus sospechas,
+            antecedentes personales y familiares, fortalezas y desafíos,
+            necesidades sensoriales, crisis, intereses... Realizarás test de
+            cribado, tareas de auto observación... Posteriormente dedicaremos
+            una cita a devolución y tips de regulación.{' '}
+          </p>
+          <br />
+          <p>
+            Después puedes pedir el abordaje profundo, o alguno de los otros
+            servicios arriba mencionados sin problema.
+          </p>
+          <br />
+          <p>
+            Viaje hacia la calidad de vida (abordaje exhaustivo y profundo):
+            Realizaremos un proceso de Detección de Neurodivergencias exhaustivo
+            y profundo que te ayudará a entenderte, cuidarte y conseguir calidad
+            de vida.
           </p>
           <br />
           <p className="italic underline">¿Cómo funciona?</p>
           <br />
           <p>
-            El primer paso es escribir a este{' '}
+            El primer paso es rellenar este{' '}
             <a
               className="contactlink writeme__link"
-              href="mailto: cpadronsaludmental@gmail.com"
-              title="Enviar un email"
+              href="https://forms.gle/XczPAoxwFhU7NZBU9"
+              title="Rellena el formulario"
               target="_blank"
               rel="noreferrer"
             >
-              email
-            </a>{' '}
-            comentándome tu{' '}
-            <span className="bold">disponibilidad horaria y </span>
-            <span className="bold">diferencia horaria </span> respecto a España
-            para agendar una <span className="bold">cita .</span>
+              formulario.
+            </a>
           </p>
           <br />
           <p className="italic underline">¿Cuáles son los precios?</p>
@@ -161,12 +197,14 @@ export function Courses() {
               Pack de <span className="green">4 citas </span> por{' '}
               <span className="green"> 310€ (256,2+IVA)</span>, ahorras 10€.
             </li>
+            <li className="aboutmelist__list--item">
+              Informe Neurodivergencias <span className="green"> 250 €</span>
+            </li>
           </ul>
           <br />
           <p>
             <span className="bold">
-              Métodos de pago : BIZUM y Transferencia para España, Stripe para
-              el resto de países.
+              Métodos de pago: BIZUM y Transferencia.
             </span>
           </p>
           <br />
@@ -174,86 +212,80 @@ export function Courses() {
           <p className="italic underline">¿Cómo solemos trabajar?</p>
           <br />
           <p>
-            Las citas se realizan mediante{' '}
-            <span className="bold">google Meet.</span> Cuando reciba el pago de
-            la cita, te enviaré el{' '}
-            <span className="bold">link de acceso. </span> Además la cita se
-            añadirá automáticamente a tu{' '}
-            <span className="bold">Calendario de Google</span>.
+            Las citas duran aproximadamente 60 minutos y se realizan mediante
+            google Meet. Cuando reciba el pago de la cita, te enviaré el enlace
+            de acceso. Además la cita se añadirá automáticamente a tu Calendario
+            de Google y recibirás recordatorios.
           </p>
           <br />
           <p>
-            La frecuencia recomendada para vernos es{' '}
-            <span className="bold">una vez a la semana</span> , sobre todo al
-            principio, ya que durante esas citas sentaremos las bases de nuestra
-            relación: crear el vínculo, conocerte…
+            La frecuencia recomendada para vernos es una vez a la semana , sobre
+            todo al principio, ya que durante esas citas sentaremos las bases
+            del proceso y de nuestra relación. Posteriormente y en función de
+            tus intereses las citas pueden espaciarse .
           </p>
           <br />
           <p>
-            Posteriormente y en función de tus intereses las citas pueden{' '}
-            <span className="bold">espaciarse</span>.
+            Antes de nuestra primera cita, te enviaré un formulario que leeré
+            antes de conocernos.
+          </p>
+          <br />
+          <p className="italic underline">¿Cuál es mi filosofía?</p>
+          <br />
+          <p>
+            Es un proceso horizontal en el que mediante listas de rasgos, test y
+            conversaciones detectamos e identificamos las Neurodivergencias
+            presentes.
           </p>
           <br />
           <p>
-            {' '}
-            <span className="bold">Antes de nuestra </span>
-            <span className="bold">primera cita , te enviaré un </span>
-            <span className="bold">formulario que leeré antes de</span>{' '}
-            conocernos.
-          </p>
-
-          <br />
-          <p>
-            La duración del proceso depende de{' '}
-            <span className="bold">tus necesidades y objetivos</span>,
-            generalmente para una primera detección de{' '}
-            <span className="bold">
-              Neurodivergencias, identificar retos y fortalezas, prevención de
-              crisis
-            </span>
-            , etc, podríamos usar <span className="bold">10 citas</span> aprox.
+            Tengo un enfoque centrado en el cuerpo en el que detectamos los
+            marcadores somáticos, es decir, las señales que envía tu cuerpo.
+            Aprenderemos a identificarlas, interpretarlas y gestionarlas.
           </p>
           <br />
           <p>
-            Agilizaremos el trabajo mediante{' '}
-            <span className="bold">Tareas</span> entre citas (no son
-            obligatorias).
+            Realizo un abordaje sensorial, identificaremos tus necesidades
+            sensoriales y procuraremos incrementar los estímulos reguladores y
+            limitar o intrudir adaptaciones ante los dereguladores.
           </p>
           <br />
           <p>
-            Tendrás <span className="bold">acceso ilimitado</span> a comunicarte
-            conmigo por <span className="bold">mail</span> , para contarme
-            inquietudes, desahogarte…
+            Aprenderemos qué emociones hay, cómo se experimentan y para qué
+            sirven. Para conseguir una relación contingente con tus emociones.
           </p>
           <br />
           <p>
-            Te brindaré información sobre las vías para conseguir el{' '}
-            <span className="bold">Diagnóstico Formal</span> para que puedas
-            elegir la opción que más se adapte a ti.
-            <br />
-            <span className="bold"> Prepararemos juntas/os/es</span> el proceso:{' '}
-            <span className="bold">cuántas citas</span> suelen ser, cuáles
-            suelen ser{' '}
-            <span className="bold">
-              más duras a nivel cognitivo y emocional
-            </span>
-            , herramientas de{' '}
-            <span className="bold">regulación sobre el proceso</span>,
-            explicación del <span className="bold">informe diagnóstico</span>...
-            Además, te explicaré el proceso de{' '}
-            <span className="bold">solicitud de Discapacidad</span> y cuáles
-            podrían ser los retos.
+            Crearemos un vínculo saludable basado en el cuidado mutuo que será
+            la base del proceso y referente para nuevos vínculos cuidadosos.
           </p>
+          <br />
+          <p className="italic underline">¿En qué horario trabajo?</p>
+          <br />
+          <p>
+            Trabajo de Lunes a Viernes de 8:00 de la mañana a 2:00 de la tarde.
+          </p>
+          <br />
+          <ul className="aboutmelist__list">
+            <h2 className="aboutmelist__list--title">Profesionales</h2>
+            <li className="aboutmelist__list--item">
+              Consultas de caso puntuales
+            </li>
+            <li className="aboutmelist__list--item">
+              Grupo de Consultas de caso (grupo reducido)
+            </li>
+          </ul>
+          <br />
         </section>
         <div className="writeme">
           <a
             className="contactlink writeme__link"
-            href="mailto: cpadronsaludmental@gmail.com"
-            title="Enviar un email"
+            href="https://forms.gle/XczPAoxwFhU7NZBU9"
+            title="Rellena el formulario"
             target="_blank"
             rel="noreferrer"
           >
-            Escríbeme para tu primer Acompañamiento.
+            Rellena el formulario y empieza tu proceso.
           </a>
         </div>
       </section>

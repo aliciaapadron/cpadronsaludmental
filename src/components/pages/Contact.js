@@ -39,7 +39,7 @@ export function Contact() {
             <a
               className="contactlink"
               href="https://www.tiktok.com/@c.padonsaludmental"
-              title="Enviar un email"
+              title="Ir a tiktok"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,7 +51,7 @@ export function Contact() {
             <a
               className="contactlink"
               href="https://www.youtube.com/channel/UCv-mEw1OLDSKjYysnaEd1nQ"
-              title="Enviar un email"
+              title="Ir a youtube"
               target="_blank"
               rel="noreferrer"
             >
@@ -63,12 +63,12 @@ export function Contact() {
             <i className="icon fa-solid fa-paper-plane"></i>
             <a
               className="contactlink"
-              href="mailto: cpadronsaludmental@gmail.com"
-              title="Enviar un email"
+              href="https://forms.gle/XczPAoxwFhU7NZBU9"
+              title="Rellena el formulario"
               target="_blank"
               rel="noreferrer"
             >
-              Escríbeme un email
+              Rellena el formulario y empieza tu proceso
             </a>
           </li>
         </ul>

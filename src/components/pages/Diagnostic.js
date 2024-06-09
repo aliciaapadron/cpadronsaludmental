@@ -49,7 +49,7 @@ export function Diagnostic() {
           <a
             className="contactlink writeme__link"
             href="mailto: diagnosticos.cpadron@gmail.com"
-            title="Enviar un email"
+            title="Rellena el formulario"
             target="_blank"
             rel="noopener noreferrer"
           >

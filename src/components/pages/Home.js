@@ -11,7 +11,11 @@ export function Home() {
         <p className="description">
           Soy Cris, asesora en Neurodivergencias y terapeuta experta en Autismo,
           (T)DAH y AACC.
+          <br></br>
+          Equipo de Psicólogas y Terapeuta Ocupacional Neurodivergentes.
+          Diagnóstico diferencial en autismos y (T)DAH.
         </p>
+
         <img
           className="piccontainer__personalpicture"
           src={personalpicture}

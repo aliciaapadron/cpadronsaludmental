@@ -60,3 +60,24 @@
     margin-top: 40px;
   }
 }
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h2 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 25px;
+}
+
+.category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category ul li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}

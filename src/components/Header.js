@@ -43,12 +43,14 @@ export function Header() {
             c.padron salud mental
           </h1>
         </div>
-        <h2 className="header__subtitle">Acompañamiento neurodivergente</h2>
+        <h2 className="header__subtitle">
+          De neurodivergente a neurodivergente
+        </h2>
         <nav className="nav">
           <ul className={`nav__list ${menu ? 'isActive' : ''}`}>
-            <Link to="/articles" className="nav__link" title="Ir a ARTÍCULOS">
+            {/* <Link to="/articles" className="nav__link" title="Ir a ARTÍCULOS">
               <li className="nav__list--item">artículos</li>
-            </Link>
+            </Link> */}
             <Link
               to="/diagnostic"
               className="nav__link"
