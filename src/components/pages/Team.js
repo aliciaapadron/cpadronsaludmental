@@ -282,18 +282,76 @@ export function Team() {
           >
             <div>
               <p className="team__cards--text">
-                Holi! Soy Ana Belén, Madre neurodivergente y psicoterapeuta
-                integradora con enfoque de género, crítico y afirmativo en
-                LGTBIQA+. Hago abordaje de trauma y apego, terapia EMDR y
-                danzamovimientoterapia. Realizo terapia familiar, vincular, de
-                pareja.. Trabajo con personas racializadas, “expat” y familias
-                transculturales. Hago detección y acompañamiento de
-                neurodivergencias en adultes y adolescentes. Puedo acompañarte
-                en varios idiomas: español, catalán e italiano.
+                Holi queride, mi nombre es Ana Belén, nací en el Mediterráneo
+                (no es una canción de Serrat), adoro el mar, y aunque me cueste
+                mucho describirme ya que considero que somos seres complejos, te
+                daré unas pinceladas para que puedas conocerme: soy madre
+                neurodivergente de tres criaturas de alta demanda, feminista,
+                vegetariana, sapiodemisexual y panromántica, y podría seguir…
               </p>
+              <br></br>
+              <p className="team__cards--text">
+                Desde mi infancia he sentido esa sensación de “no encajar”,
+                demasiado sensible e introvertida. En la edad adulta después de
+                varias crisis existenciales, fui identificada por una psicóloga
+                especializada como <span className="bold">PAS y AACC</span>, en
+                este sentido para mí fue liberador reapropiarme de mi identidad,
+                que tantas veces había sido sometida a violencia por este
+                sistema opresor y hostil con las neurodivergencias, a lo largo
+                de mi vida, especialmente en la juventud he sufrido de
+                depresión, ansiedad, trastornos de la alimentación y estrés
+                postraumático complejo, actualmente estoy en cuestionamiento de
+                atención neurodivergente.{' '}
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Mis intereses profundos son variados como mi multipotencialidad:
+                la psicología, el activismo social, el ecologismo, la danza …
+                son algunos de ellos.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                El aprendizaje continuo es mi pasión, me he formado en
+                <span className="bold">
+                  psicoterapia integradora, trauma, apego, EMDR, migraciones,
+                  danzamovimientoterapia y neurodivergencias
+                </span>
+                , además, continúo nutriéndome constantemente con cada
+                acompañade, con vosotres crezco como persona y psicóloga,
+                tratando de transformar nuestra pequeña parcela en un lugar
+                radicalmente tierno.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Mi{' '}
+                <span className="bold">
+                  enfoque terapéutico es transfeminista, neuroafirmativo,
+                  LGTBIQA+ friendly, antiracista, antifascista, antigordofóbico,
+                  anticapacitista, intercultural y amable con las disidencias
+                  sexoafectivas.
+                </span>
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                En mi experiencia profesional he acompañado durante 10 años a
+                personas pertenecientes a colectivos y minorías excluidas,
+                principalmente mujeres migrantes o socializadas como tal,
+                familias transculturales y otras personas que han sido
+                violentadas por el sistema cisheteropatriarcal.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Desde mi vulnerabilidad y humanismo, me encantaría ofrecerte un
+                viaje de autodescubrimiento en un{' '}
+                <span className="bold">espacio seguro</span> en el que poder ser
+                tú misme, en <span className="bold">catalán e italiano</span> si
+                te sientes más cómode (he hecho terapia en inglés y francés
+                también, aunque no los domine).
+              </p>
+              <br></br>
               <p className="team__cards--text bold">
-                Atiendo online y mi horario es de lunes a viernes, 9:00 a 2:00
-                (tardes a consultar).
+                Mi horario de atención on-line es de lunes a viernes de 10:00 de
+                la mañana a 14:00h y tardes a consultar de 16:00 a 19:00h
               </p>
               <p className="team__cards--text bold">
                 El valor de una cita de 1h es de 70 euros.

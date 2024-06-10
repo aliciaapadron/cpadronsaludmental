@@ -130,7 +130,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Lorena/Candela</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Lorena/Candela/Ana Belén</span>
                 </li>
               </ul>
               <br />
@@ -367,8 +368,7 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga:{' '}
-                  <span className="bold">Cris/María/Ana Belén</span>
+                  Quién se encarga: <span className="bold">Cris/María</span>
                 </li>
               </ul>
               <br></br>
