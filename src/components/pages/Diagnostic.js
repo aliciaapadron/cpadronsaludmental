@@ -14,8 +14,7 @@ export function Diagnostic() {
           </span>
           realizado por profesionales neurodivergentes. Realizamos el proceso{' '}
           <span className="bold">online</span> y está destinado a personas{' '}
-          <span className="bold">mayores de 18 años </span> con fluidez verbal
-          fluida.
+          <span className="bold">mayores de 18 años </span> con fluidez verbal.
         </p>
         <br></br>
         <p className="diagnostic__text">
@@ -77,14 +76,14 @@ export function Diagnostic() {
                 Durante esta primera cita nos contarás tus sospechas, te
                 mandaremos test (posteriormente los corregiremos) y te
                 anticiparemos el proceso (qué fases quedan, cuál es la siguiente
-                y a quién realizar el pago). Esta cita es obligatoria.
+                fase y a quién realizar el pago). Esta cita es obligatoria.
               </p>
               <br></br>
               <span className="bold">Test:</span>
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Autismo: cat-q,raads,aspie qui
+                  Autismo: cat-q,raads,aspie quiz
                 </li>
                 <li className="diagnostic__listdata--item">
                   Cribado aacc: lista de rasgos
