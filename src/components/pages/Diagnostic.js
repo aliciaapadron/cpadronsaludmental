@@ -96,7 +96,9 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Cris/Candela/María/Ana Belén</span>
+                  <span className="bold">
+                    Cris/Candela/María/Ana Belén/Tania
+                  </span>
                 </li>
               </ul>
               <br />
@@ -130,7 +132,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Lorena/Candela/Ana Belén</span>
+                  <span className="bold">Lorena/Candela/Ana Belén/Tania</span>
                 </li>
               </ul>
               <br />
@@ -160,7 +162,9 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Candela/Lorena/María/Ana Belén</span>
+                  <span className="bold">
+                    Candela/Lorena/María/Ana Belén/Tania
+                  </span>
                 </li>
               </ul>
               <br />
@@ -187,7 +191,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Cris/María/Ana Belén</span>
+                  <span className="bold">Cris/María/Ana Belén/Tania</span>
                 </li>
               </ul>
               <br />
@@ -227,7 +231,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Lorena/Candela/Ana Belén</span>
+                  <span className="bold">Lorena/Candela/Ana Belén/Tania</span>
                 </li>
               </ul>
               <br />
@@ -287,7 +291,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Candela/Lorena/Ana Belén</span>
+                  <span className="bold">Candela/Lorena/Ana Belén/Tania</span>
                 </li>
               </ul>
               <br />
@@ -330,6 +334,35 @@ export function Diagnostic() {
               </p>
             </div>
           </CollapsibleCard>
+          <CollapsibleCard title="ADI-R">
+            <div className="diagnostic__cards--text">
+              <p>
+                El ADI-R es una entrevista clínica que permite una evaluación
+                profunda en personas con sospechas de autismo, el cual ha
+                demostrado ser muy útil en el diagnóstico en el espectro. Se
+                recomienda esta entrevista clínica especialmente en casos en los
+                que hay conductas de masking o existen dudas solo con la prueba
+                ADOS-2 y/o el juicio clínico.
+              </p>
+              <br></br>
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Quién se encarga: <span className="bold">María</span>
+                </li>
+              </ul>
+              <br />
+              <p className="bold">Precio: 100€</p>
+              <br></br>
+              <p className="clarification">
+                <span className="bold">Opciones de pago:</span> El pago debe
+                realizarse por cada cita, antes de cada cita se facilitará la
+                información de pago y los plazos (Recibirás con antelación un
+                PDF la anticipación de la información de pago). Se recomienda
+                tener las citas semanal o quincenalmente. *Todas las partes
+                están revisadas por todas las profesionales.
+              </p>
+            </div>
+          </CollapsibleCard>
           <CollapsibleCard title="CITA CO-OCURRENCIAS">
             <div className="diagnostic__cards--text">
               <p>
@@ -341,7 +374,7 @@ export function Diagnostic() {
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
                   Quién se encarga:{' '}
-                  <span className="bold">Lorena/Ana Belén</span>
+                  <span className="bold">Lorena/Ana Belén/Tania</span>
                 </li>
               </ul>
               <br />
@@ -367,7 +400,8 @@ export function Diagnostic() {
               <br></br>
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
-                  Quién se encarga: <span className="bold">Cris/María</span>
+                  Quién se encarga:{' '}
+                  <span className="bold">Cris/María/Tania</span>
                 </li>
               </ul>
               <br></br>

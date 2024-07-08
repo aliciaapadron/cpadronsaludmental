@@ -6,6 +6,9 @@ import lorena from '../../images/lorena.png';
 import candela from '../../images/candela.png';
 import maria from '../../images/maria.png';
 import anabelen from '../../images/anabelen.png';
+import maru from '../../images/maru.png';
+import tania from '../../images/tania.png';
+import andrea from '../../images/andrea.png';
 
 export function Team() {
   return (
@@ -362,6 +365,362 @@ export function Team() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSd2ENVzRP1LrouJ0c2JHzVmOn3OpEIxHafiNLZxyCWgB8JImA/viewform"
+                >
+                  Mi formulario
+                </a>
+              </p>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard
+            title="Maru, médica internista"
+            alt="Maru"
+            src={maru}
+          >
+            <div>
+              <p className="team__cards--text">
+                Mi nombre es <strong>Maru</strong>, de María Eugenia. Soy{' '}
+                <strong>
+                  migrante venezolana, neurodivergente y Médica Internista
+                </strong>
+                , es decir, me dedico al diagnóstico y tratamiento de todo tipo
+                de condiciones propias del adulto y en especial de la mujer, con
+                ya casi 15 años de experiencia. <strong>Eso en el papel</strong>
+                .
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                En la vida real soy una mujer que ha acudido al sistema de salud
+                público, privado, venezolano, español, en muchas ocasiones y ha
+                sufrido las{' '}
+                <strong>
+                  múltiples violencias que la medicina occidental (blanca, cis,
+                  patriarcal y capitalista) tiene reservadas para quienes no
+                  somos ni nos enfermamos como se espera de nosotras.
+                </strong>{' '}
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Esto ha fortalecido mi empatía: sé lo que es que ignoren tus
+                síntomas, que atribuyan todos tus problemas a tu peso, que te
+                discriminen, que no te crean, que no admitan sus errores
+                diagnósticos, que no te escuchen y sobre todo que te invaliden.
+                Sé lo que es tener que recurrir al masking para sobrellevar los
+                días y a las Altas Capacidades para investigar por tu cuenta,
+                sintiéndote sola e insegura.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Sé lo que es seguir adelante a pesar del{' '}
+                <strong>
+                  trauma complejo, la migración, la neurodivergencia, la
+                  gordofobia y la depresión/ansiedad, por lo que mi práctica es
+                  informada en estos temas.
+                </strong>
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Por eso ofrezco un servicio de Medicina Integral:{' '}
+                <strong>
+                  no hay nada más importante que lo que tú sientes
+                </strong>
+                . Eres el centro de la atención que me gustaría brindarte,
+                comprendiendo sobre todo{' '}
+                <strong>
+                  las violencias sistémicas que te atraviesan, tus necesidades
+                  sensoriales y especialmente la gran verdad de que no hay salud
+                  sin salud mental.
+                </strong>
+              </p>
+              <br></br>
+              <p
+                className="team__cards--text"
+                style={{ textDecoration: 'underline', fontWeight: 'bolder' }}
+              >
+                Trabajo especialmente sobre:
+              </p>
+              <br></br>
+              <ul className="team__cards--text">
+                <li className="diagnostic__listdata--item">
+                  Condiciones propias o frecuentes de la mujer (y todos sus
+                  mitos): alteraciones menstruales/menopausia/anticoncepción,
+                  Ovario poliquístico, Fibromialgia, trastornos de la inmunidad,
+                  SIBO y alteraciones del Microbioma, Disautonomía.
+                </li>
+                <li className="diagnostic__listdata--item">
+                  Diagnóstico de Síndrome de Ehler Danlos, Marfan y otras{' '}
+                  <strong>hiperlaxitudes</strong>.
+                </li>
+                <li className="diagnostic__listdata--item">
+                  Especialista en Infecciones de Transmisión Sexual con enfoque{' '}
+                  <strong>LGTBIQ+ </strong>, comunidad de la que me considero
+                  aliada.
+                </li>
+                <li className="diagnostic__listdata--item">
+                  {' '}
+                  Diagnóstico y seguimiento de patologías comunes como
+                  Hipertensión, Hipotiroidismo, Diabetes, infecciones en
+                  general,{' '}
+                  <strong>
+                    priorizando las necesidades sensoriales propias de la
+                    Neurodivergencia
+                  </strong>
+                  .
+                </li>
+                <li className="diagnostic__listdata--item">
+                  Orientación para acudir a citas oficiales en el sistema formal
+                  de salud, incluyendo <strong>informes o mediación</strong>{' '}
+                  según el caso.
+                </li>
+                <li className="diagnostic__listdata--item">
+                  Acompañamiento y formación para <strong>cuidadores</strong>,
+                  en especial orientación para quienes lidian con pacientes con{' '}
+                  <strong>Demencias</strong>.
+                </li>
+                <li className="diagnostic__listdata--item">
+                  Lo que puedas necesitar lo podemos conversar y en caso de ser
+                  necesario, cuento con colegas <strong>especialistas</strong>{' '}
+                  en otras áreas si necesitáramos un apoyo extra.
+                </li>
+                <li className="diagnostic__listdata--item">
+                  Salud en todas las tallas, atención a la Neurodiversidad,
+                  Cuidados Paliativos y la Mediación Artística forman parte de
+                  mis muchos <strong>intereses profundos</strong>.
+                </li>
+              </ul>
+              <br></br>
+              <p className="team__cards--text bold">
+                Atiendo online las tardes de lunes, jueves y viernes de 16:00 a
+                21:00h, con posibilidad de flexibilizar según tus necesidades.
+                También trabajo en <strong>inglés</strong>.
+              </p>
+              <p className="team__cards--text bold">
+                La consulta tiene una duración de una hora y un costo de 80
+                euros.{' '}
+              </p>
+              <p className="team__cards--text bold">
+                Medicina en un espacio seguro, ¡te espero!
+              </p>
+              <p className="team__cards--text">
+                <a
+                  className="contactlink"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd2LZ8tWOpRF147UV7n3lJ4WeAW5rxcNKJlpWDogOyX9OX24Q/viewform?vc=0&c=0&w=1&flr=0&fbclid=PAZXh0bgNhZW0CMTEAAabJTs_HUvuMM6RkWhHRIzTto9vif-3goabDK1Mv6qJXcr60vAPu5i_pWdk_aem_xSazZgBdAcGu5Gou1aNVbg"
+                >
+                  Mi formulario
+                </a>
+              </p>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard
+            title="Tania, psicóloga sanitaria"
+            alt="Tania"
+            src={tania}
+          >
+            <div>
+              <p className="team__cards--text">
+                Hola bonites, mi nombre es Tania <strong>(ella) </strong>soy
+                psicóloga sanitaria ejerciendo desde hace más de 7 años, mamá de
+                una bebé de alta demanda, diabética y neurodivergente.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Me gusta describir mi trabajo como centrado en la psicología
+                neuroafirmativa y queer, con las especializaciones de
+                acompañamiento{' '}
+                <strong>
+                  individual, sobre todo a adolescentes y jóvenes adultes, de
+                  parejas/vínculos y familiar.
+                </strong>{' '}
+                Y de todas las circunstancias que atraviesan nuestra salud
+                mental especialmente a las personas neurodivergentes y/o del
+                colectivo como los estados de ánimo, las crisis, los traumas,
+                los apegos y vínculos, la gestión y comunicación de nuestras
+                necesidades y la de los demás, las necesidades académicas para
+                romper con los techos de cristal del sistema educativo actual,
+                etc. En mi recorrido formativo encontramos un máster en
+                dificultades de los aprendizajes y el lenguage, la terápia
+                asistida con animales (con mi perri-hija Banana), el{' '}
+                <strong>EMDR </strong> para el abordaje del trauma, la{' '}
+                <strong>terapia sexual y de pareja</strong> con perspectiva
+                feminista y LGTBIAQ+, y el abordage del{' '}
+                <strong>chemsex </strong> entre muchas lecturas y
+                seminarios-cursos varios.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Como persona con <strong>atención divergente y AACC</strong>, he
+                sido la niña lista que sin aparente esfuerzo, sin parar de
+                hablar, sin parecer prestar atención, lo hacía. La intensa, la
+                dispersa, la que necesita estar en constante crecimiento y
+                alimentando su curiosidad. Siempre he necesitado concentrarme
+                con una <strong>distracción controlada</strong>… recuerdo estar
+                en clase leyendo un libro escondido en el pupitre para poder
+                prestar atención a la maestra o maestro, o necesitar estar
+                dibujando en las últimas páginas de la agenda, de los libros, de
+                las libretas… estudiar y hacer trabajos escuchando a rammstein o
+                apocalyptica a todo volumen.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Como <strong>curiosidades</strong> sé tocar algunos instrumentos
+                (no convencionales: handpan y gralla), me interesa todo lo que
+                puedas hacer con las manos (las mías están en constante
+                movimiento) como tejer, coser, tatuar, hacer macramé, anillos,
+                la resina epóxica, y tengo una máquina láser con la que hago
+                objetos personalizados de madera y/o cristal.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Soy la psico de la memoria de elefante, la de los detalles, los
+                tatuajes y el pelo raro (rapado y/o colorinchis), la
+                antisistema, la directa, la franca, y la flipada.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                En mi espacio de terapia <strong>no se toleran</strong>{' '}
+                actitudes lgtbifóbicas, gordofóbicas, racistas, machistas ni
+                capacitistas.
+              </p>
+              <p className="team__cards--text">
+                Te puedo atender en <strong>castellano, catalán</strong> y, pese
+                a no sentirme especialmente segura, <strong>inglés</strong>, de
+                lunes a jueves por las tardes: de 14.30 a 20h.
+              </p>
+              <p className="team__cards--text bold">
+                El valor de la sesión individual es de 60euros la hora, y de
+                pareja/vínculo o familiar 80euros la hora.
+              </p>
+              <p className="team__cards--text">
+                <a
+                  className="contactlink"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/taniasaez.psicologia/?hl=es"
+                >
+                  Mi instagram es @taniasaez.psicologia
+                </a>
+              </p>
+              <p className="team__cards--text">
+                <a
+                  className="contactlink"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://forms.gle/SCUANNgmCm5HqcQ79"
+                >
+                  Mi formulario
+                </a>
+              </p>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard
+            title="Andrea, nutricionista"
+            alt="Andrea"
+            src={andrea}
+          >
+            <div>
+              <p className="team__cards--text">
+                Acompaño{' '}
+                <strong>
+                  procesos de recuperación de TCA (AN, BN, TPA, TERI…) o
+                  conducta alimentaria desregulada sin un diagnóstico.
+                </strong>
+                Además, puedo acompañarte a trabajar en tus hábitos de vida,
+                integrando el autocuidado en tu día a día.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Cada proceso es 100% personalizado pero todos tienen en común:
+                realizamos <strong>educación alimentaria</strong> para entender
+                qué necesita el cuerpo realmente, las sesiones son un{' '}
+                <strong>espacio seguro </strong>donde se da espacio a las
+                emociones y las dificultades que conlleva el proceso, todo lo
+                propuesto es{' '}
+                <strong>desde una mirada amable y el respeto al cuerpo </strong>{' '}
+                (esto, puede que no esté al inicio del proceso, pero lo iremos
+                construyendo juntas poco a poco).
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Trabajo desde un enfoque{' '}
+                <strong>
+                  de salud integrativa, para todas las tallas, alejada de
+                  restricciones y prohibiciones{' '}
+                </strong>
+                y el objetivo final es que tengas{' '}
+                <strong>
+                  flexibilidad alimentaria y autonomía para cuidarte.
+                </strong>
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                <strong>
+                  Desde que acabé la carrera he acompañado a personas con
+                  dificultades en la relación con la comida y su cuerpo.
+                </strong>{' '}
+                Mi práctica está informada en trauma y las bases son la
+                compasión, el auto-liderazgo y el fomento del amor propio.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                <strong>No realizo dietas</strong>, pero sí puedo acompañarte a
+                salir de ellas con amabilidad si estás ahí y sientes que no te
+                ayudan.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Estoy formada en{' '}
+                <strong>
+                  Trastornos de la Conducta Alimentaria, Alimentación informada
+                  en trauma, Neurodivergencias y su influencia en la conducta
+                  alimentaria
+                </strong>{' '}
+                alimentaria y estoy certificada como Coach Nutricional nivel I.
+                Mi{' '}
+                <strong>
+                  experiencia profesional trabajando a nivel ambulatorio y en un
+                  hospital de día / comedor terapéutico{' '}
+                </strong>
+                terapéutico también ha sido clave en la profesional que soy hoy.
+              </p>
+              <p className="team__cards--text">
+                <strong>En lo personal </strong>soy una persona muy sensible, en
+                la adolescencia me identifiqué con la etiqueta de Persona
+                Altamente Sensible y ahora, con más información y recursos, me
+                encajan cosas del déficit de atención y el autismo en las que
+                aún estoy encontrándome. Si vamos más a lo práctico, soy una
+                persona que necesita empezar el día lento y con un café tamaño
+                XL. Si me ves por la calle, es probable que esté haciendo fotos
+                al cielo o a cualquier árbol: la fotografía me hace conectar con
+                la presencia y la belleza cotidiana. No puedo hablar de mí sin
+                hablar de la <strong>naturaleza </strong>porque es mi mayor
+                fuente de inspiración y regulación; sentir su sostén es algo que
+                me aporta mucha paz.{' '}
+                <strong>
+                  Creo en un Yo-Nosotros, en el poder de la comunidad y los
+                  vínculos para reparar nuestras heridas estructurales. Así que
+                  tu contexto me importa MUCHO y pongo mucho de mi parte para
+                  ofrecerte un espacio seguro con perspectiva de género,
+                  afirmato en LGTBIAQ+ y antigordofobia.{' '}
+                </strong>{' '}
+                Siento que mi trabajo es una forma bonita de luchar contra el
+                sistema y reivindicar que está bien ser quien eres: ojalá puedas
+                sentir eso.
+              </p>
+              <p className="team__cards--text bold">
+                Hago sesiones online de aprox. 1h, cuyo coste es 60€.
+              </p>
+              <p className="team__cards--text bold">
+                Dependiendo del día, tengo huecos de mañana (11:00-14:30) y de
+                tarde (16:00-19:30). Puedes escribirme por el formulario y
+                seguro que encontramos un hueco que nos encaje a ambas.
+              </p>
+              <p className="team__cards--text">
+                <a
+                  className="contactlink"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://docs.google.com/forms/d/1kQCeiWq4gsbYyivfayCDWR819WbAVRrenYb5mIntL8M/edit"
                 >
                   Mi formulario
                 </a>

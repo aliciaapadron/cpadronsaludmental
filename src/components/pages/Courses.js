@@ -202,7 +202,8 @@ export function Courses() {
               <span className="green"> 310€ (256,2+IVA)</span>, ahorras 10€.
             </li>
             <li className="aboutmelist__list--item">
-              Informe Neurodivergencias <span className="green"> 250 €</span>
+              Informe Neurodivergencias{' '}
+              <span className="green"> 250 € (206,61€+IVA)</span>
             </li>
           </ul>
           <br />

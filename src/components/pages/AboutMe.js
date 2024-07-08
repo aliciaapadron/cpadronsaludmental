@@ -10,11 +10,12 @@ export function AboutMe() {
       'Identificación de Autismo en Población Adulta',
       'Identificación de (T)DAH en Población Adulta',
       'Alta Capacidad y Autismo: Doble Excepcionalidad',
-      'Psicojurídico y Neurodivergencias',
+      'Psiconutrición y Neurodivergencias',
       'Detección y Acompañamiento de Neurodivergencias en Población Adulta',
       'Procesamiento Sensorial en personas Neurodivergentes a lo largo de todo el ciclo vital',
       'Evaluación e Intervención Multidisciplinar en Adultos en el Espectro Autista',
       'Autismo y (T)DAH a lo largo del ciclo vital: Un enfoque desde la neurodiversidad',
+      'Intervención en psicoterapia con adultos',
     ],
     General: [
       'Especialista en Terapias Contextuales y de Tercera Generación',
@@ -30,6 +31,7 @@ export function AboutMe() {
       'Experta en Prevención del ASI',
       'Intervención con Sistema de Familias Internas (IFS)',
       'Especialista en Apego y Trauma',
+      'Neurodivergencias, trauma y disociación',
     ],
   };
 
