@@ -127,8 +127,8 @@ export function Team() {
                 etapas de la vida (infancia, adolescencia, adultez y tercera
                 edad). También estoy formada en Problemas de Alimentación,
                 problemas de sueño, lactancia materna, estoy certificada en
-                ADOS-2, en atención divergente (TDAH), tengo un máster de
-                Atención Temprana y…¡muchas cositas más! Si quieres ver mi
+                ADOS-2 y ADI-R, en atención divergente (TDAH), tengo un máster
+                de Atención Temprana y…¡muchas cositas más! Si quieres ver mi
                 formación o experiencia, puedes consultar mi linkedn o mi
                 doctoralia y por si queréis conocerlo, mi número de colegiada es
                 CAM 0194 y mi certificado de Integración Sensorial por la
@@ -148,9 +148,9 @@ export function Team() {
                 cualquier etapa de la vida (desde el nacimiento hasta la vejez),
                 en él incluyo un informe con su respectiva dieta sensorial,
                 adaptaciones laborales, académicas, en la vida diaria o en
-                cualquier aspecto en que lo necesites. Realizo el test ADOS-2
-                que se usa para evaluar Autismo. También realizo seguimientos,
-                guiándote hacia tu autorregulación sensorial.
+                cualquier aspecto en que lo necesites. Realizo el test ADOS-2 y
+                ADI-R que se usa para evaluar Autismo. También realizo
+                seguimientos, guiándote hacia tu autorregulación sensorial.
               </p>
               <p className="team__cards--text bold">
                 Atiendo online o presencial en Madrid. Mi horario de atención es
@@ -720,7 +720,7 @@ export function Team() {
                   className="contactlink"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://docs.google.com/forms/d/1kQCeiWq4gsbYyivfayCDWR819WbAVRrenYb5mIntL8M/edit"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeADps2IudwqgO5W4yRf0oZLoo-CEUW9vITCS4_d7cEV5E0lA/viewform"
                 >
                   Mi formulario
                 </a>
