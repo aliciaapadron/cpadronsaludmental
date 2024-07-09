@@ -62,7 +62,7 @@ export function Header() {
               <li className="nav__list--item">equipo</li>
             </Link>
             <Link to="/courses" className="nav__link" title="Ir a TARIFAS">
-              <li className="nav__list--item">tarifas</li>
+              <li className="nav__list--item">mis servicios</li>
             </Link>
             <Link to="/aboutme" className="nav__link" title="Ir a SOBRE MÍ">
               <li className="nav__list--item">sobre mí</li>
