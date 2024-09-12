@@ -9,6 +9,7 @@ import anabelen from '../../images/anabelen.png';
 import maru from '../../images/maru.png';
 import tania from '../../images/tania.png';
 import andrea from '../../images/andrea.png';
+import raquel from '../../images/raquel.png';
 
 export function Team() {
   return (
@@ -93,7 +94,7 @@ export function Team() {
                   className="contactlink"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfZmuE7IV72BA9TCra9KC5IGuBis3vRGnjsQRqWGaiZTNPmfg/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeU1hcgIN4uO_pAayp9iWLJJJTjCQMJRZ7fOGctfcUUlTKlpA/viewform?vc=0&c=0&w=1&flr=0"
                 >
                   Mi formulario
                 </a>
@@ -149,7 +150,9 @@ export function Team() {
                 en él incluyo un informe con su respectiva dieta sensorial,
                 adaptaciones laborales, académicas, en la vida diaria o en
                 cualquier aspecto en que lo necesites. Realizo el test ADOS-2 y
-                ADI-R que se usa para evaluar Autismo. También realizo
+                ADI-R que se usa para evaluar Autismo. Realizo los test de
+                Barthel y Katzs para evaluar situación de discapacidad, útiles
+                para el proceso de solicitar discapacidad. También realizo
                 seguimientos, guiándote hacia tu autorregulación sensorial.
               </p>
               <p className="team__cards--text bold">
@@ -371,21 +374,14 @@ export function Team() {
               </p>
             </div>
           </CollapsibleCard>
-          <CollapsibleCard
-            title="Maru, médica internista"
-            alt="Maru"
-            src={maru}
-          >
+          <CollapsibleCard title="Maru, médica" alt="Maru" src={maru}>
             <div>
               <p className="team__cards--text">
                 Mi nombre es <strong>Maru</strong>, de María Eugenia. Soy{' '}
-                <strong>
-                  migrante venezolana, neurodivergente y Médica Internista
-                </strong>
-                , es decir, me dedico al diagnóstico y tratamiento de todo tipo
-                de condiciones propias del adulto y en especial de la mujer, con
-                ya casi 15 años de experiencia. <strong>Eso en el papel</strong>
-                .
+                <strong>migrante venezolana, neurodivergente y Médica</strong>,
+                es decir, me dedico al diagnóstico y tratamiento de todo tipo de
+                condiciones propias del adulto y en especial de la mujer, con ya
+                casi 15 años de experiencia. <strong>Eso en el papel</strong>.
               </p>
               <br></br>
               <p className="team__cards--text">
@@ -721,6 +717,101 @@ export function Team() {
                   target="_blank"
                   rel="noreferrer"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSeADps2IudwqgO5W4yRf0oZLoo-CEUW9vITCS4_d7cEV5E0lA/viewform"
+                >
+                  Mi formulario
+                </a>
+              </p>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard
+            title="Raquel, psicóloga general sanitaria"
+            alt="Raquel"
+            src={raquel}
+          >
+            <div>
+              <p className="team__cards--text">
+                Soy Raquel (ella) y, soy{' '}
+                <strong>
+                  psicóloga general sanitaria especializada en Neuropsicología.{' '}
+                </strong>
+                Trabajo con <strong>adolescentes y adultes </strong> online.
+                Nací en Valladolid y he vivido 8 largos años en Salamanca, donde
+                tuve el placer de formarme académicamente y descubrirme
+                personalmente, encontrando mi identidad y mi orientación
+                sexuales.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                En lo profesional, una de{' '}
+                <strong>
+                  {' '}
+                  mis grandes pasiones desde siempre ha sido la alimentación y
+                  los TCA
+                </strong>{' '}
+                (los trastornos de la conducta alimentaria), así como{' '}
+                <strong>
+                  la relación existente con la imagen corporal - en particular -
+                  y la autoestima - en general-.{' '}
+                </strong>{' '}
+                Es por ello por lo que me he formado (y sigo haciéndolo) en este
+                campo. Al final la comida es algo presente en nuestro día a día
+                y nos afecta. Me gusta enfocar la terapia desde un{' '}
+                <strong>punto no pesocentrista ni biologista.</strong>
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                También soy <strong>neuropsicóloga, </strong>por lo que puedo
+                ayudarte y acompañarte en el proceso de{' '}
+                <strong>solicitud de discapacidad o bajas laborales, </strong>{' '}
+                realizando evaluación, informe…
+              </p>
+              <br></br>
+
+              <p className="team__cards--text">
+                Respecto a lo personal, soy una chica curiosa, siempre con
+                preguntas en mi cabeza y un libro entre mis manos. Me gusta
+                escuchar a las personas, generar espacios en los que se sientan
+                validadas. Soy amante de la música, de la historia, del arte (en
+                todas sus expresiones) y de viajar. Me gusta sumergirme en
+                nuevas experiencias y conocer personas que me hagan reflexionar
+                y replantearme las cosas. Pero también adoro quedarme en casa, a
+                mi bola y pasar tiempo conmigo misma.
+              </p>
+              <br></br>
+              <p className="team__cards--text">
+                Trabajo desde una{' '}
+                <strong>
+                  perspectiva feminista y LGBT+ friendly, segura y cálida, con
+                  perspectiva de género.
+                </strong>
+              </p>
+              <p className="team__cards--text bold">
+                Estaré encantada de atender de manera online de Lunes a Viernes
+                de 10:00h a 14:00h, o cuando podamos encontrar un hueco,
+                pregunta por mi disponibilidad, seguro podemos encontrar un
+                momento en común.
+              </p>
+              <p className="team__cards--text bold">
+                Mis sesiones individuales tienen una duración de una 1h y un
+                valor de 50 euros.
+              </p>
+              <p className="team__cards--text">
+                <a
+                  className="contactlink"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/tu.psique.sabe/?hl=en/"
+                >
+                  Puedes encontrarme y conocerme un poquito más en IG:
+                  @tu.psique.sabe
+                </a>
+              </p>
+              <p className="team__cards--text">
+                <a
+                  className="contactlink"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfbXNj4xlBa_SUL-8gpPbol3Z45tXkaUe_8s2FJaBFzhzsSJg/viewform"
                 >
                   Mi formulario
                 </a>
