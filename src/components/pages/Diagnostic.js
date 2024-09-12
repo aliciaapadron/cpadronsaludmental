@@ -224,7 +224,7 @@ export function Diagnostic() {
               </ul>
             </div>
           </CollapsibleCard>
-          <CollapsibleCard title="B) Cita tdah diva 1h30mins 200€ psicóloga">
+          <CollapsibleCard title="B) Cita TDAH evaluación con diva">
             <div className="diagnostic__cards--text">
               <p> Evaluación con prueba ADOS-2.</p>
               <br></br>
@@ -371,7 +371,7 @@ export function Diagnostic() {
               </ul>
             </div>
           </CollapsibleCard>
-          <CollapsibleCard title="C) Cita tdah diva 1h3mins 200€ psicóloga">
+          <CollapsibleCard title="C) Cita TDAH evaluación con diva">
             <div className="diagnostic__cards--text">
               <ul className="diagnostic__listdata">
                 <li className="diagnostic__listdata--item">
