@@ -226,7 +226,7 @@ export function Diagnostic() {
           </CollapsibleCard>
           <CollapsibleCard title="B) Cita TDAH evaluación con diva">
             <div className="diagnostic__cards--text">
-              <p> Evaluación con prueba ADOS-2.</p>
+              <p> Evaluación con prueba DIVA.</p>
               <br></br>
 
               <ul className="diagnostic__listdata">
@@ -523,8 +523,7 @@ export function Diagnostic() {
       <section className="summary">
         <p className="diagnostic__text">
           Nuestro diagnóstico es <span className="bold"> oficial/formal</span> y
-          lo realizan las <span className="bold">Neurodiversidad</span>? El
-          diagnóstico es un proceso que sólo pueden realizar los{' '}
+          lo realizan las{' '}
           <span className="bold">
             psicólogas, neuropsicóloga y terapeuta ocupacional colegiadas,
             formadas ampliamente en autismo, (t)dah y co-ocurrencias.
