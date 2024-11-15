@@ -23,7 +23,7 @@ export function Team() {
       <section>
         <div className="team__cards">
           <CollapsibleCard
-            title="Lorena, psicóloga sanitaria"
+            title="Lorena, psicóloga sanitaria. Certificada en ADOS-2"
             alt="Lorena"
             src={lorena}
           >
@@ -160,8 +160,9 @@ export function Team() {
                 de Lunes a Viernes de 9:00 de la mañana a 2:30 de la tarde.
               </p>
               <p className="team__cards--text bold">
-                La evaluación del perfil sensorial online tiene un valor de 135
-                euros incluyendo el informe con la dieta sensorial.
+                La evaluación del perfil sensorial online tiene un valor de 185
+                euros incluyendo el informe con la dieta sensorial. Consulta en
+                mi formulario mi oferta de servicios.
               </p>
 
               <p className="team__cards--text">
@@ -282,7 +283,7 @@ export function Team() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard
-            title="Ana Belén, psicóloga sanitaria"
+            title="Ana Belén, psicóloga sanitaria. Certificada en ADOS-2 y ADI-R"
             alt="Ana Belén"
             src={anabelen}
           >
@@ -490,8 +491,8 @@ export function Team() {
                 También trabajo en <strong>inglés</strong>.
               </p>
               <p className="team__cards--text bold">
-                La consulta tiene una duración de una hora y un costo de 80
-                euros.{' '}
+                La consulta de una hora tiene un valor de 90 euros. Consulta en
+                mi formulario mi oferta de servicios.{' '}
               </p>
               <p className="team__cards--text bold">
                 Medicina en un espacio seguro, ¡te espero!
@@ -509,7 +510,7 @@ export function Team() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard
-            title="Tania, psicóloga sanitaria"
+            title="Tania, psicóloga sanitaria. Certificada en ADOS-2"
             alt="Tania"
             src={tania}
           >

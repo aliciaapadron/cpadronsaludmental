@@ -1,11 +1,10 @@
-.coursection {
+.cursossection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   font-size: 16px;
-  margin: 30px 60px 0px;
   @include desktop() {
     font-size: 20px;
     margin: 0px 60px;
@@ -62,7 +61,7 @@
     }
   }
 
-  .aboutmelist {
+  .cursoslist {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     flex-direction: column;
@@ -117,7 +116,7 @@
   color: $link;
 }
 
-.aboutmelist__list--title {
+.cursoslist__list--title {
   border: solid 1px $link;
   margin-bottom: 20px;
   padding: 30px;
@@ -130,4 +129,36 @@
 .displaynone {
   color: transparent;
   height: 0;
+}
+
+.cursossection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  @include desktop() {
+    font-size: 20px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: $darkgreen;
+    background: $background;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    @include desktop() {
+      font-size: 22px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    margin-bottom: 10px;
+    @include desktop() {
+      width: 50%;
+    }
+  }
 }

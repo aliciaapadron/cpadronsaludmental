@@ -10,7 +10,8 @@ export function Diagnostic() {
       <section className="diagnostic">
         <p className="diagnostic__text">
           <span className="bold">
-            Diagnóstico diferencial y multidisciplinar{' '}
+            Diagnóstico diferencial y multidisciplinar de Autismo (t)DAH y Altas
+            Capacidades{' '}
           </span>
           realizado por profesionales neurodivergentes. Realizamos el proceso{' '}
           <span className="bold">online</span> y está destinado a personas{' '}
@@ -486,6 +487,113 @@ export function Diagnostic() {
           </CollapsibleCard>
         </div>
       </section>
+
+      <section className="diagnostic">
+        <p className="diagnostic__title">EVALUACIÓN DE ALTAS CAPACIDADES</p>
+        <div className="diagnostic__cards">
+          <CollapsibleCard title="1ª Sesión">
+            <div className="diagnostic__cards--text">
+              <p>
+                {' '}
+                Evaluación de habilidades del pensamiento abstracto, habilidad
+                para resolver nuevos problemas, capacidad de observación,
+                razonamiento y analogías (RAVEN's) + Inteligencia creativa
+                (CREA).
+              </p>
+              <br></br>
+
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Duración: <span className="bold">1h</span>
+                </li>
+              </ul>
+              <br />
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Valor: <span className="bold">100€</span>
+                </li>
+              </ul>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard title="2ª Sesión">
+            <div className="diagnostic__cards--text">
+              <p>
+                {' '}
+                Evaluación de aptitudes intelectuales (EFAI) + Evaluación de las
+                funciones ejecutivas (BRIEF-2).
+              </p>
+              <br></br>
+
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Duración: <span className="bold">1h</span>
+                </li>
+              </ul>
+              <br />
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Valor: <span className="bold">100€</span>
+                </li>
+              </ul>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard title="3ª Sesión">
+            <div className="diagnostic__cards--text">
+              <p>
+                {' '}
+                Evaluación de inteligencias múltiples + entrevista
+                semiestructurada para detectar y evaluar rasgos AACC desde la
+                perspectiva de las neurodivergencias.
+              </p>
+              <br></br>
+
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Duración: <span className="bold">1h</span>
+                </li>
+              </ul>
+              <br />
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Valor: <span className="bold">100€</span>
+                </li>
+              </ul>
+            </div>
+          </CollapsibleCard>
+          <CollapsibleCard title="4ª Sesión">
+            <div className="diagnostic__cards--text">
+              <p>devolución de informe + dudas.</p>
+              <br></br>
+
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Duración: <span className="bold">30mins</span>
+                </li>
+              </ul>
+              <br />
+              <ul className="diagnostic__listdata">
+                <li className="diagnostic__listdata--item">
+                  Valor: <span className="bold">50€</span>
+                </li>
+              </ul>
+            </div>
+          </CollapsibleCard>
+        </div>
+        <section className="summary">
+          <p className="diagnostic__text">
+            Si la evaluación de <span className="bold">Altas Capacidades</span>{' '}
+            es independiente a la{' '}
+            <span className="bold">evaluación de Autismo y/o (t)DAH</span> la
+            realización del <span className="bold">Informe de Evaluación</span>{' '}
+            tiene un valor de <span className="bold">200€</span>. Si la
+            evaluación de <span className="bold">Altas Capacidades</span> forma
+            parte del proceso{' '}
+            <span className="bold">diagnóstico de Autismo y/o (t)DAH</span> el
+            informe no se cobra aparte.
+          </p>
+        </section>
+      </section>
+
       <section className="summary">
         <p className="diagnostic__text">
           <span className="bold">Si debido a tu caso</span> es necesario, te
@@ -496,7 +604,7 @@ export function Diagnostic() {
         <div className="diagnostic__cards--text diagnostic__text">
           <ul className="diagnostic__listdata">
             <li className="diagnostic__listdata--item">
-              Cita para evaluar el perfil sensorial: <strong> 135€.</strong>
+              Cita para evaluar el perfil sensorial: <strong> 185€.</strong>
             </li>
             <li className="diagnostic__listdata--item">
               Cita entrevista clínica ADI-R:: <strong> 100€.</strong>
@@ -511,12 +619,24 @@ export function Diagnostic() {
             </li>
             <li className="diagnostic__listdata--item">
               Cita cribado/asesoramiento médico/farmacológico:{' '}
-              <strong> 80€.</strong>
+              <strong> 90€.</strong>
+            </li>
+            <li className="diagnostic__listdata--item">
+              Cita de evaluación de la conducta adaptativa (ABAS-II) útil para
+              la solicitud de la discapacidad: <strong> 100€.</strong>
             </li>
           </ul>
           <p style={{ fontStyle: 'italic', fontSize: '14px' }}>
             *El pago se realiza por cada cita, por adelantado, a la profesional
             que te evalúe.
+          </p>
+          <p style={{ fontStyle: 'italic', fontSize: '14px' }}>
+            Se entregará un informe final cuyo precio está incluido en el valor
+            de cada cita.
+          </p>
+          <p style={{ fontStyle: 'italic', fontSize: '14px' }}>
+            Las citas de co-ocurrencia tienen una duración aproximada de una
+            hora.
           </p>
         </div>
       </section>
