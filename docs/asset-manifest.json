@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e7ba720.css",
-    "main.js": "/static/js/main.6d55b51c.js",
+    "main.css": "/static/css/main.d2163585.css",
+    "main.js": "/static/js/main.7f9db696.js",
     "static/media/fotokiti-bn.png": "/static/media/fotokiti-bn.4c582dc0491c5ae2d7b8.png",
     "static/media/andrea.png": "/static/media/andrea.4ffea360225ab9ff72b6.png",
     "static/media/maru.png": "/static/media/maru.000d1e4b4d49fb10873c.png",
@@ -12,14 +12,22 @@
     "static/media/raquel.png": "/static/media/raquel.74abb889f637ab46423a.png",
     "static/media/maria.png": "/static/media/maria.07afe1e86c2a5007db44.png",
     "static/media/eli.png": "/static/media/eli.c7ecc5ad8e36368bee54.png",
+    "static/media/resumen.png": "/static/media/resumen.85fa612444fcc20f1bfa.png",
+    "static/media/pulmones.png": "/static/media/pulmones.e5d73448d2aec34e1e46.png",
+    "static/media/calendario.png": "/static/media/calendario.be1e5c21912eb67c93a6.png",
+    "static/media/croquis.png": "/static/media/croquis.2d899176c535d297da83.png",
+    "static/media/cigarro.png": "/static/media/cigarro.d24633bc145ad9aa20fb.png",
     "static/media/logokiti.png": "/static/media/logokiti.0e6f82ef1e5b88310d96.png",
     "static/media/minilogo.png": "/static/media/minilogo.0e6f82ef1e5b88310d96.png",
+    "static/media/resumen2.JPG": "/static/media/resumen2.91709c56eb90d967ab1e.JPG",
+    "static/media/guia.JPG": "/static/media/guia.1c650153093708e1848c.JPG",
+    "static/media/guia2.JPG": "/static/media/guia2.f1a76f8943cbe4096cbf.JPG",
     "index.html": "/index.html",
-    "main.3e7ba720.css.map": "/static/css/main.3e7ba720.css.map",
-    "main.6d55b51c.js.map": "/static/js/main.6d55b51c.js.map"
+    "main.d2163585.css.map": "/static/css/main.d2163585.css.map",
+    "main.7f9db696.js.map": "/static/js/main.7f9db696.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e7ba720.css",
-    "static/js/main.6d55b51c.js"
+    "static/css/main.d2163585.css",
+    "static/js/main.7f9db696.js"
   ]
 }
