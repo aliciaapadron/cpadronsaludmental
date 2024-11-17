@@ -6,12 +6,200 @@ import cigarro from '../../images/cigarro.png';
 import resumen from '../../images/resumen.png';
 import pulmones from '../../images/pulmones.png';
 import calendario from '../../images/calendario.png';
+import guia from '../../images/guia.JPG';
+import guia2 from '../../images/guia2.JPG';
 
 export function Ebooks() {
   return (
     <>
       <Header />
       <div className="team__cards">
+        <h1>Guía de Supervivencia Neurodivergente</h1>
+        <br />
+        <div className="team__cards--text">
+          <section className="ebookssection">
+            <section className="explanation">
+              <p>
+                Te presento{' '}
+                <strong>mi Guía de Supervivencia Neurodivergente</strong>: Un
+                recurso que te ayudará a{' '}
+                <strong>
+                  desarrollar conciencia de tus necesidades y aprender a
+                  regularte.
+                </strong>{' '}
+                Es <strong>interactiva</strong> y tiene{' '}
+                <strong>ejercicios prácticos</strong>.
+              </p>
+              <br />
+              <p>
+                Esta Guía está escrita con{' '}
+                <strong>lenguaje de invitación</strong> y no de imposición.
+              </p>
+              <br />
+              <p>
+                Es<strong> fácil de comprender y accesible</strong> en cuanto a
+                vocabulario y tipografía.
+              </p>
+              <br />
+              <p>
+                Está escrita en <strong>femenino, masculino y neutro</strong>{' '}
+                para respetar todas las <strong>identidades</strong>.
+              </p>
+              <br />
+              <p>
+                Las <strong>ideas principales</strong> están en{' '}
+                <strong>negrita</strong> para facilitar la lectura.
+              </p>
+              <br />
+              <p>En ella puedes encontrar ejercidos, ejemplos y material.</p>
+              <br />
+              <p>
+                Puedes leerlo en el orden que prefieras y complementar la
+                información que te falte con el resto de puntos.
+              </p>
+              <br />
+              <p>
+                Si eres ser querido o profesional de una persona
+                neurodivergente, te ayudará a sentirte más cerca de ella,
+                comprenderla y ofrecerle recursos de regulación.
+              </p>
+              <br />
+              <ul className="ebookslist__list">
+                <div className="ebookslist__list--title">
+                  <p> ¿Qué contenido incluye?</p>{' '}
+                  <p>
+                    <strong>El índice que encontrarás es el siguiente:</strong>
+                  </p>
+                </div>
+                <br />
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 1: Cucharitas.
+                  </span>
+                  En él explico la teoría de las cucharitas y cómo relacionarte
+                  con ellas.
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 2: Identificar emociones.
+                  </span>
+                  Éste es un recurso excelente para trabajar la alexitimia.
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 3: Escuchar al cuerpo.
+                  </span>
+                  Para regular la propiocepción y la interocepción.
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 4: Economizar energía.
+                  </span>
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 5: Prevención de crisis.
+                  </span>
+                  Aquí te explico qué tipo de colapsos podemos experimentar.
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 6: Stimming.{' '}
+                  </span>
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 7: Gestión de crisis.
+                  </span>
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 8: Masking.
+                  </span>
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 9: Mis derechos.
+                  </span>
+                </li>
+                <li className="ebookslist__list--item">
+                  <span
+                    style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                  >
+                    Cap. 10: Afirmaciones positivas.
+                  </span>
+                </li>
+              </ul>
+              <br />
+              <section className="guiasection">
+                <img
+                  className="ebookssection__img"
+                  src={guia}
+                  alt="Img"
+                  title="Img"
+                />{' '}
+                <img
+                  className="ebookssection__img"
+                  src={guia2}
+                  alt="Img"
+                  title="Img"
+                />{' '}
+              </section>
+            </section>
+            <br />
+            <section
+              style={{
+                border: 'solid 1px #63cbb2',
+                marginBottom: ' 20px',
+                padding: '30px',
+              }}
+            >
+              <p>Valor del de la Guía de SUPERVIVENCIA NEURODIVERGENTE: 15€</p>
+
+              <a
+                className="emailLink"
+                href="https://buy.stripe.com/dR66p58Z03ve5Ww28g"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Aprende a cuidarte. Cómpralo aquí
+              </a>
+
+              <p
+                style={{
+                  fontStyle: 'italic',
+                  fontSize: '14px',
+                  paddingTop: '30px',
+                }}
+              >
+                *Te enviaremos la Guía al correo que elijas en la plataforma de
+                pagos manualmente en un plazo de 1 a 4 días laborables.
+              </p>
+            </section>
+          </section>
+        </div>
+      </div>
+
+      {/* EBOOK MARU */}
+      <div className="team__cards" style={{ marginTop: '60px' }}>
         <h1>E-Book RESPIRA LIBRE</h1>
         <h2 style={{ fontStyle: 'italic' }}>
           Un viaje contigo para dejar de fumar y vapear
@@ -144,7 +332,13 @@ export function Ebooks() {
               />{' '}
             </section>
             <br />
-            <section>
+            <section
+              style={{
+                border: 'solid 1px #63cbb2',
+                marginBottom: ' 20px',
+                padding: '30px',
+              }}
+            >
               <p>Valor del E-book Interactivo RESPIRA LIBRE 35€</p>
 
               <a
@@ -167,6 +361,17 @@ export function Ebooks() {
               >
                 Cómpralo aquí
               </a>
+
+              <p
+                style={{
+                  fontStyle: 'italic',
+                  fontSize: '14px',
+                  paddingTop: '30px',
+                }}
+              >
+                *Te enviaremos el ebook al correo que elijas en la plataforma de
+                pagos manualmente en un plazo de 1 a 4 días laborables.
+              </p>
             </section>
           </section>
         </div>

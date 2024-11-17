@@ -1,9 +1,6 @@
 import { Footer } from '../Footer';
 import { Header } from '../Header';
 
-import resumen2 from '../../images/resumen2.JPG';
-import pulmones from '../../images/pulmones.png';
-
 export function Free() {
   return (
     <>
@@ -11,7 +8,10 @@ export function Free() {
       <div className="team__cards">
         <h1>Material gratuito</h1>
         <h2 style={{ fontStyle: 'italic' }}>
-          Descarga gratis las siguientes plantillas:
+          Si necesitas ayuda para prepararte para tu cita Ginecológica o de
+          medicina general, para una preparación amable contigo misma, dirigida
+          específicamente a las consultas de Ginecología o Medicina general,
+          descarga gratis las siguientes plantillas:
         </h2>
         <br />
         <div className="team__cards--text">
@@ -42,6 +42,11 @@ export function Free() {
                   </a>
                 </li>
               </ul>
+              <br />
+              <p>
+                Recuerda <strong>no estás sola</strong> y podemos asesorarte en
+                el proceso.{' '}
+              </p>
             </section>
           </section>
         </div>

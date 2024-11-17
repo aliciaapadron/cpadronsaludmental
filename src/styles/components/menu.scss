@@ -161,6 +161,9 @@
     text-decoration: none;
     color: #63cbb2;
     text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   &__list {
     text-transform: uppercase;
@@ -181,7 +184,7 @@
       justify-content: space-around;
       height: 8vh;
       background-color: transparent;
-      padding: 10px 0 200px 0;
+      padding: 40px 0 200px 0;
     }
 
     &--item {
@@ -248,7 +251,7 @@
 
 /* Elementos del submenú */
 .nav__submenu--item {
-  padding: 10px 20px;
+  padding: 0;
   color: $darkcolor;
   font-family: $header;
   font-size: 14px;
@@ -264,4 +267,10 @@
   background-color: $link;
   color: grey !important;
   border-radius: 5px;
+}
+
+.nav__link {
+  @include desktop() {
+    padding: 10px 0;
+  }
 }

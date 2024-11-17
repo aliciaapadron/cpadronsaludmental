@@ -175,6 +175,19 @@ export function Cursos() {
                   </a>
                 </li>
               </ul>
+              <br />
+
+              <p
+                style={{
+                  fontStyle: 'italic',
+                  fontSize: '14px',
+                  paddingTop: '30px',
+                }}
+              >
+                *Una vez realizado el pago del curso te escribiremos en un plazo
+                de 1 a 4 días laborables, al correo que elijas en la plataforma
+                de pagos para agendar el inicio del seguimiento
+              </p>
             </section>
           </section>
         </div>
