@@ -562,7 +562,7 @@ export function Diagnostic() {
           </CollapsibleCard>
           <CollapsibleCard title="4ª Sesión">
             <div className="diagnostic__cards--text">
-              <p>devolución de informe + dudas.</p>
+              <p>Cita opcional para devolución de informe + dudas.</p>
               <br></br>
 
               <ul className="diagnostic__listdata">
@@ -614,7 +614,7 @@ export function Diagnostic() {
               TLP):<strong> 80€.</strong>
             </li>
             <li className="diagnostic__listdata--item">
-              Cita evaluación trauma (evaluación con test EEGS-R):
+              Cita evaluación trauma:
               <strong> 80€.</strong>
             </li>
             <li className="diagnostic__listdata--item">
@@ -632,7 +632,9 @@ export function Diagnostic() {
           </p>
           <p style={{ fontStyle: 'italic', fontSize: '14px' }}>
             Se entregará un informe final cuyo precio está incluido en el valor
-            de cada cita.
+            de cada cita (salvo en la evaluación de Altas Capacidades que sólo
+            está incluido si forma parte de una evaluación de autismo y/o
+            t-dah.).
           </p>
           <p style={{ fontStyle: 'italic', fontSize: '14px' }}>
             Las citas de co-ocurrencia tienen una duración aproximada de una

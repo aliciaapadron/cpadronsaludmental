@@ -23,7 +23,7 @@ export function Team() {
       <section>
         <div className="team__cards">
           <CollapsibleCard
-            title="Lorena, psicóloga sanitaria. Certificada en ADOS-2"
+            title="Lorena, psicóloga sanitaria."
             alt="Lorena"
             src={lorena}
           >
@@ -72,6 +72,9 @@ export function Team() {
                 eres la persona experta en tu vida y yo solo soy una escaladora
                 que te acompaña en tu escalada.
               </p>
+              <br />
+              <strong> Estoy certificada en ADOS-2</strong>
+              <br />
               <p className="team__cards--text bold">
                 Atiendo online y mi horario de atención es de Martes a Viernes
                 de 9:00 de la mañana a 2:30 de la tarde.
@@ -283,7 +286,7 @@ export function Team() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard
-            title="Ana Belén, psicóloga sanitaria. Certificada en ADOS-2 y ADI-R"
+            title="Ana Belén, psicóloga sanitaria."
             alt="Ana Belén"
             src={anabelen}
           >
@@ -356,6 +359,8 @@ export function Team() {
                 también, aunque no los domine).
               </p>
               <br></br>
+              <strong>Estoy certificada en ADOS-2 y ADI-R</strong>
+              <br />
               <p className="team__cards--text bold">
                 Mi horario de atención on-line es de lunes a viernes de 10:00 de
                 la mañana a 14:00h y tardes a consultar de 16:00 a 19:00h
@@ -510,7 +515,7 @@ export function Team() {
             </div>
           </CollapsibleCard>
           <CollapsibleCard
-            title="Tania, psicóloga sanitaria. Certificada en ADOS-2"
+            title="Tania, psicóloga sanitaria."
             alt="Tania"
             src={tania}
           >
@@ -584,10 +589,14 @@ export function Team() {
                 a no sentirme especialmente segura, <strong>inglés</strong>, de
                 lunes a jueves por las tardes: de 14.30 a 20h.
               </p>
+              <br />
+              <strong>Estoy certificada en ADOS-2</strong>
+              <br />
               <p className="team__cards--text bold">
                 El valor de la sesión individual es de 60euros la hora, y de
                 pareja/vínculo o familiar 80euros la hora.
               </p>
+
               <p className="team__cards--text">
                 <a
                   className="contactlink"

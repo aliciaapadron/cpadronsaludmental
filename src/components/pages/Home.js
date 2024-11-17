@@ -13,7 +13,10 @@ export function Home() {
           (T)DAH y AACC.
           <br></br>
           Equipo de Psicólogas y Terapeuta Ocupacional Neurodivergentes.
-          Diagnóstico diferencial en autismos y (T)DAH.
+          <br></br>
+          Diagnóstico diferencial en autismo, altas capacidades y (T)DAH.
+          <br></br>
+          Asesoría a emprededoras y supervisión a Terapeutas.
         </p>
 
         <img

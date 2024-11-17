@@ -15,7 +15,7 @@ const menuItems = [
     dropdown: [
       { title: 'Asesoramiento en neurodivergencias', link: '/consulting' },
       { title: 'Supervisión a terapeutas', link: '/supervision' },
-      { title: 'Asesoría para empleados', link: '/employee-advice' },
+      { title: 'Asesoría para emprendedoras', link: '/employee-advice' },
     ],
   },
   {

@@ -90,7 +90,8 @@ export function Employee() {
                   Quieres ser productiva sin perder tu esencia/humanidad.
                 </li>
                 <li className="aboutmelist__list--item">
-                  Quiero que mi servicio/producto se diferencie y sea llamativo.
+                  Quieres que tu servicio/producto se diferencie y sea
+                  llamativo.
                 </li>
               </ul>
               <br />
